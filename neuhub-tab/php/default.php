@@ -83,7 +83,16 @@ if (file_exists($filename)) {
     <!-- <link rel="stylesheet" href="https://neuhub.org/view/theme/neuhub-red-dash/assets/assets/fonts/hubzilla/style.css?v=7.8.7" type="text/css" media="screen"> -->
     <!-- <link rel="stylesheet" href="/mockups/mockup-neuhub-tabley/assets/fonts/hubzilla/style.css?v=7.8.7" type="text/css" media="screen"> -->
 
-    <!-- Moved to /theme_init.php -->
+    <link rel="stylesheet" href="/view/theme/neuhub-tab/assets/css/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="/view/theme/neuhub-tab/assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="/view/theme/neuhub-tab/assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="/view/theme/neuhub-tab/assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="/view/theme/neuhub-tab/assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="/view/theme/neuhub-tab/assets/css/Projects-Clean.css">
+    <link rel="stylesheet" href="/view/theme/neuhub-tab/assets/css/Features-Boxed.css">
+    <link rel="stylesheet" href="/view/theme/neuhub-tab/assets/css/styles.css">  
+
+    <!-- ! Attempted to Move to /theme_init.php but didn't work. -->
     <link href="/view/theme/neuhub-tab/dist/css/tabler.min.css?1685973381" rel="stylesheet"/>
     <link href="/view/theme/neuhub-tab/dist/css/tabler-flags.min.css?1685973381" rel="stylesheet"/>
     <link href="/view/theme/neuhub-tab/dist/css/tabler-payments.min.css?1685973381" rel="stylesheet"/>
@@ -279,12 +288,14 @@ if (file_exists($filename)) {
 
                 <p></p>
 
+                <?php /*
                 <div class="card mb-3">
                   <!--
                   <div class="card-header">
                     <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
                   </div>
                   -->
+                  
                   <div class="card-body">
                     <small>
                       <!-- <a href="<?php echo $HomeURL; ?>"><b>Digital Authorship</b></a> -->This website is part of a decentralized social network powered by Hubzilla and Neuhub.
@@ -292,6 +303,7 @@ if (file_exists($filename)) {
                     </small>
                   </div>
                 </div>
+                */ ?>
 
                 <?php /*
                 <div class="card mb-3">

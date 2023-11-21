@@ -1125,6 +1125,10 @@
               </li>
             -->
 
+            {{$userinfo.testplugin.sidebar_after}}
+
+            
+
               <!-- 
                 PIN TO NAVBAR
                 Logged In Users can select apps to show here. 

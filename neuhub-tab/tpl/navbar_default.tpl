@@ -631,6 +631,8 @@
                 {{assign var="ClassAriaExpandedConversations" value="true"}}
               {{/if}}
 
+              {{$userinfo.testplugin.sidebar_list_begin}}
+
               <li class="nav-item{{$ClassMenuHome}}">
               <a class="nav-link" href="/" >
                 <span class="nav-link-icon d-md-none d-lg-inline-block">
@@ -1125,7 +1127,9 @@
               </li>
             -->
 
-            {{$userinfo.testplugin.sidebar_after}}
+            {{$userinfo.testplugin.sidebar_list_end}}
+
+            
 
             
 
@@ -1272,6 +1276,9 @@
             {{/if}}
 
             </ul>
+
+            {{$userinfo.testplugin.sidebar_after}}
+
           </div>
         </div>
       </aside>

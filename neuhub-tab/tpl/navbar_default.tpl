@@ -548,6 +548,13 @@
                 {{assign var="ClassAriaExpandedApps" value="true"}}
               {{/if}}                   
 
+              {{if $smarty.server.SCRIPT_URL == "/settings" or $smarty.server.SCRIPT_URL == "/settings/"}}
+                {{assign var="ClassMenuSettingsChannel" value=" active"}}
+                {{assign var="ClassMenuSettings" value=" active"}}
+                {{assign var="ClassDropdownSettings" value=" show"}}
+                {{assign var="ClassAriaExpandedSettings" value="true"}}
+              {{/if}}                   
+
               {{if $smarty.server.SCRIPT_URL == "/settings/channel" or $smarty.server.SCRIPT_URL == "/settings/channel/"}}
                 {{assign var="ClassMenuSettingsChannel" value=" active"}}
                 {{assign var="ClassMenuSettings" value=" active"}}
@@ -630,8 +637,6 @@
                 {{assign var="ClassDropdownConversations" value=" show"}}
                 {{assign var="ClassAriaExpandedConversations" value="true"}}
               {{/if}}
-
-              {{$userinfo.testplugin.sidebar_list_begin}}
 
               <li class="nav-item{{$ClassMenuHome}}">
               <a class="nav-link" href="/" >
@@ -1127,11 +1132,8 @@
               </li>
             -->
 
-            {{$userinfo.testplugin.sidebar_list_end}}
 
-            
-
-            
+            {{$userinfo.testplugin.sidebar_after}}
 
               <!-- 
                 PIN TO NAVBAR
@@ -1276,9 +1278,6 @@
             {{/if}}
 
             </ul>
-
-            {{$userinfo.testplugin.sidebar_after}}
-
           </div>
         </div>
       </aside>

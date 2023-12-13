@@ -149,7 +149,7 @@
               <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown" aria-label="Open user menu">
                 <span class="avatar avatar-sm" style="background-image: url({{$redtab.icon}})"></span>
                 <div class="d-none d-xl-block ps-2">
-                  <div>{{if $nav.login && !$userinfo}}
+                  <div>{{if $nav.login && !$userinfo.addr}}
                     Guest
                 {{else}}
                     {{$userinfo.name}}
@@ -230,14 +230,14 @@
             {{/if}}
         
         
-            {{if ! $is_owner && $userinfo}}
+            {{if ! $is_owner && $userinfo.addr}}
             
                 <a class="dropdown-item" href="{{$nav.rusermenu.0}}" role="menuitem">{{$nav.rusermenu.1}}</a>
                 <a class="dropdown-item" href="{{$nav.rusermenu.2}}" role="menuitem">{{$nav.rusermenu.3}}</a>
             
             {{/if}}		
             
-            {{if $nav.login && !$userinfo}}
+            {{if $nav.login && !$userinfo.addr}}
 
               
               
@@ -1420,7 +1420,7 @@
               <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown" aria-label="Open user menu">
                 <span class="avatar avatar-sm" style="background-image: url({{$redtab.icon}})"></span>
                 <div class="d-none d-xl-block ps-2">
-                  <div>{{if $nav.login && !$userinfo}}
+                  <div>{{if $nav.login && !$userinfo.addr}}
                     Welcome Guest
                 {{else}}
                     {{$userinfo.name}}
@@ -1504,14 +1504,14 @@
             {{/if}}
         
         
-            {{if ! $is_owner && $userinfo}}
+            {{if ! $is_owner && $userinfo.addr}}
             
                 <a class="dropdown-item" href="{{$nav.rusermenu.0}}" role="menuitem">{{$nav.rusermenu.1}}</a>
                 <a class="dropdown-item" href="{{$nav.rusermenu.2}}" role="menuitem">{{$nav.rusermenu.3}}</a>
             
             {{/if}}		
             
-            {{if $nav.login && !$userinfo}}
+            {{if $nav.login && !$userinfo.addr}}
 
                 <a class="dropdown-item" href="login" title="{{$nav.loginmenu.1.3}}">
                     {{$nav.loginmenu.1.1}}
@@ -1577,7 +1577,7 @@
               <ul class="navbar-nav">
 
               
-              {{if $nav.login && !$userinfo}}
+              {{if $nav.login && !$userinfo.addr}}
                 {{* If Not Logged In *}}
 
                 <li class="nav-item">
@@ -1664,7 +1664,7 @@
                 </li>
                 
               
-                {{if $userinfo}}
+                {{if $userinfo.addr}}
                 
 
                   <!--

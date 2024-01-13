@@ -99,7 +99,20 @@ if (file_exists($filename)) {
     <link href="/view/theme/neuhub-tab/dist/css/tabler-vendors.min.css?1685973381" rel="stylesheet"/>
     <link href="/view/theme/neuhub-tab/dist/css/demo.min.css?1685973381" rel="stylesheet"/>
 <!-- -->
-    
+
+    <?php
+    // Include Codestitch CSS files, if it exists.
+    // ! Assumes you have uploaded both the main CSS and the CSS for the sections.
+    $filename = 'custom/css/codestitch.css';
+    if (file_exists($filename)) { ?>
+        <link href="./custom/css/codestitch.css" rel="stylesheet"/>
+        <link href="./custom/css/codestitch-sections.css" rel="stylesheet"/>
+    <?php
+    } else {
+        //// echo "The file $filename does not exist";
+    }
+    ?>
+
 
     <style>
       /* @import url('/view/theme/neuhub-tab/assets/fonts/inter/inter.css'); */

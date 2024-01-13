@@ -116,6 +116,9 @@ if (file_exists($filename)) {
         <link href="/custom/css/codestitch.css?1685973381" rel="stylesheet"/>
         <link href="/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
 
+        <link href="/view/theme/neuhub-tab/custom/css/codestitch.css?1685973381" rel="stylesheet"/>
+        <link href="/view/theme/neuhub-tab/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
+
     <style>
       /* @import url('/view/theme/neuhub-tab/assets/fonts/inter/inter.css'); */
       :root {

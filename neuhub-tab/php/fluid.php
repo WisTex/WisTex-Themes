@@ -273,7 +273,7 @@ if (file_exists($filename)) {
         </div>
         */ ?>
         <!-- Page body -->
-        <div class="page-body">
+        <div class="page-body mt-0">
           <div class="container-xl">
             
             <?php if(x($page,'breadcrumb')) echo $page['breadcrumb'] ?>   

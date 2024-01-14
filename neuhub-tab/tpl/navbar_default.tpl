@@ -1,6 +1,6 @@
 <!-- begin default navbar template -->
 
-{{* debug *}}
+{{debug}}
 
 {{* import variables from neuhub-config.php so they are available in this template *}}
 {{include file="neuhub-config.tpl"}}
@@ -409,12 +409,12 @@
 
               {{/if}}                                      
 
-              
+              {{$userinfo.testplugin.sidebar_above_menu}}  
 
             <ul class="navbar-nav pt-lg-3">
 
 
-            {{$userinfo.testplugin.sidebar_above_menu}}
+            {{$userinfo.testplugin.sidebar_before_menu}}
 
             
 
@@ -661,6 +661,8 @@
                 </span>
               </a>
             </li>              
+
+            {{$userinfo.testplugin.sidebar_after_home}}
 
             {{if $localuser}}
 

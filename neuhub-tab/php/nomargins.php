@@ -278,6 +278,8 @@ if (file_exists($filename)) {
         <div class="page-body m-0 p-0">
           <div class="!container-xl">
             
+            <?php if(x($page,'breadcrumb')) echo $page['breadcrumb'] ?>   
+            <?php if(x($page,'top_area')) echo $page['top_area']; ?>
             <?php if(x($page,'content')) echo $page['content']; ?>  
 
           </div>

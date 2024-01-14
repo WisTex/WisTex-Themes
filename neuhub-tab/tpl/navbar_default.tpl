@@ -1295,6 +1295,9 @@
             {{/if}}
 
             </ul>
+
+            {{$userinfo.testplugin.sidebar_below_menu}}  
+
           </div>
         </div>
       </aside>

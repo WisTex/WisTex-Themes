@@ -1,7 +1,7 @@
 <div class="page mt-0">
 
 
-	<div class="generic-content-wrapper" id="page-content-wrapper" >
+	<div class="generic-content-wrapper m-0" id="page-content-wrapper" >
 <!--
 		{{if $title}}
 		<div class="section-title-wrapper">
@@ -9,7 +9,7 @@
 		</div>
 		{{/if}}
 -->			
-		<div class="section-content-wrapper">
+		<div class="section-content-wrapper m-0">
 		<!--
 			<div class="page-author"><a class="page-author-link" href="{{$auth_url}}">{{$author}}</a></div>
 			<div class="page-date">{{$date}}</div>

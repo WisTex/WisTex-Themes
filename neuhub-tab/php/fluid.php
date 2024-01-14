@@ -49,6 +49,7 @@ if (file_exists($filename)) {
     <?php if(x($page,'htmlhead')) echo $page['htmlhead'] ?>
 
 
+    <!--
     <script defer data-api="/stats/api/event" data-domain="preview.tabler.io" src="/stats/js/script.js"></script>
     <meta name="msapplication-TileColor" content=""/>
     <meta name="theme-color" content=""/>
@@ -74,6 +75,7 @@ if (file_exists($filename)) {
     <meta property="og:title" content="Tabler: Premium and Open Source dashboard template with responsive and high quality UI.">
     <meta property="og:url" content="https://preview.tabler.io/static/og.png">
     <meta property="og:description" content="Tabler comes with tons of well-designed components and features. Start your adventure with Tabler and make your dashboard great again. For free!">
+-->
     <!-- CSS files -->
 
     <link rel="stylesheet" href="/view/theme/neuhub-tab/assets/fonts/fontawesome-all.min.css?v=7.8.7" type="text/css" media="screen">

@@ -705,7 +705,7 @@
                   </a>
                   <div class="dropdown-menu{{$ClassDropdownChannel}}">
 
-                    <a class="dropdown-item{{$ClassMenuViewChannel}}" href="/channel" rel="noopener">
+                    <a class="dropdown-item{{$ClassMenuViewChannel}}" href="/channel/{{$userinfo.nick}}" rel="noopener">
                       View Channel
                     </a>
                     <a class="dropdown-item{{$ClassMenuViewProfile}}" href="/{{$nav.usermenu.0.0}}">
@@ -714,19 +714,19 @@
                     <a class="dropdown-item{{$ClassMenuEditProfile}}" href="/{{$nav.usermenu.1.0}}" rel="noopener">
                       Edit Profile
                     </a>
-                    <!--
-                    <a class="dropdown-item" href="/photos" rel="noopener">
+                    
+                    <a class="dropdown-item" href="/photos/{{$userinfo.nick}}" rel="noopener">
                       Photos
                     </a> 
-                    -->
-                    <a class="dropdown-item{{$ClassMenuFiles}}" href="/cloud" rel="noopener">
+                    
+                    <a class="dropdown-item{{$ClassMenuFiles}}" href="/cloud/{{$userinfo.nick}}" rel="noopener">
                       Files
                     </a> 
-                    <!--
-                    <a class="dropdown-item" href="/calendar" rel="noopener">
+                    
+                    <a class="dropdown-item" href="/cdav/calendar" rel="noopener">
                       Calendar
                     </a>
-                    -->                  
+                    
                   </div>
                 </li>
 

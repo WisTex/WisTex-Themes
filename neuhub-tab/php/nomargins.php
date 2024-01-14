@@ -233,7 +233,7 @@ if (file_exists($filename)) {
                 <!-- Main Site Navigation -->
                 <?php if(x($page,'nav')) echo $page['nav']; ?>
 
-      <div class="page-wrapper m-0 p-0">
+      <div class="page-wrapper">
 
 
 
@@ -275,8 +275,8 @@ if (file_exists($filename)) {
         </div>
         */ ?>
         <!-- Page body -->
-        <div class="page-body m-0 p-0">
-          <div class="!container-xl">
+        <div class="page-body">
+          <div class="!container-xl m-0 p-0">
             
             <?php if(x($page,'breadcrumb')) echo $page['breadcrumb'] ?>   
             <?php if(x($page,'top_area')) echo $page['top_area']; ?>
@@ -284,6 +284,7 @@ if (file_exists($filename)) {
 
           </div>
         </div>
+        <div class="container-xl">
         <footer class="footer footer-transparent d-print-none">
           <div class="container-xl">
             <div class="row text-center align-items-center flex-row-reverse">
@@ -418,6 +419,7 @@ if (file_exists($filename)) {
                 </nav>
 
         </footer>
+        </div>
 
 
 

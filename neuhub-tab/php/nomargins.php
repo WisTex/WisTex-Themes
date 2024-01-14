@@ -284,6 +284,7 @@ if (file_exists($filename)) {
 
           </div>
         </div>
+        <div class="page-body">
         <div class="container-xl">
         <footer class="footer footer-transparent d-print-none">
           <div class="container-xl">
@@ -419,6 +420,7 @@ if (file_exists($filename)) {
                 </nav>
 
         </footer>
+        </div>
         </div>
 
 

@@ -25,6 +25,6 @@ function neuhubtab_init(&$App) {
     // If your theme does not have a template file (*.tpl), it will use the Redbasic version.
     // This way, if new templates are added to the core, it is automatically supported. 
     // Although keep in mind that Redbasic assumes you are using Bootstrap in your theme.
-    // App::$theme_info['extends'] = 'redbasic';
+    App::$theme_info['extends'] = 'redbasic';
 
 }

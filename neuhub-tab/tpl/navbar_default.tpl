@@ -271,6 +271,7 @@
 
 
           {{$userinfo.testplugin.sidebar_before}}
+          {{$userinfo.["neuhub-tab"].sidebar_before}}
 
 
           {{if $localuser}} 
@@ -663,6 +664,7 @@
             </li>              
 
             {{$userinfo.testplugin.sidebar_after_home}}
+            
 
             {{if $localuser}}
 
@@ -1151,6 +1153,7 @@
 
 
             {{$userinfo.testplugin.sidebar_after}}
+            {{$userinfo.["neuhub-tab"].sidebar_after}}
 
               <!-- 
                 PIN TO NAVBAR

@@ -1153,7 +1153,7 @@
 
 
             {{$userinfo.testplugin.sidebar_after}}
-            {{$userinfo.["neuhub-tab"].sidebar_after}}
+            
 
               <!-- 
                 PIN TO NAVBAR

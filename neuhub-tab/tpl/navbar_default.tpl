@@ -271,7 +271,7 @@
 
 
           {{$userinfo.testplugin.sidebar_before}}
-          {{$userinfo.["neuhub-tab"].sidebar_before}}
+          {{$userinfo["neuhub-tab"].sidebar_before}}
 
 
           {{if $localuser}} 

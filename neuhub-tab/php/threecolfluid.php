@@ -286,11 +286,7 @@ if (file_exists($filename)) {
             <?php if(x($page,'breadcrumb')) echo $page['breadcrumb'] ?>   
             <?php if(x($page,'top_area')) echo $page['top_area']; ?>
 
-          </div>
-        </div>
-
-
-        <main>
+<main>
 		<div class="content">
 			<div class="columns">
 				<aside id="region_1" class="d-none d-lg-block"><div class="aside_spacer_top_left"></div><div class="aside_spacer_left"><div id="left_aside_wrapper" class="aside_wrapper"><?php if(x($page,'aside')) echo $page['aside']; ?></div></div></aside>
@@ -302,6 +298,12 @@ if (file_exists($filename)) {
 			</div>
 		</div>
 	</main>    
+
+          </div>
+        </div>
+
+
+
 
 
         <footer class="footer footer-transparent d-print-none">

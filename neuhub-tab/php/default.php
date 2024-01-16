@@ -289,7 +289,7 @@ if (file_exists($filename)) {
               </div>
 
 
-              <div class="col-lg-7 col">
+              <div class="col-lg-8 col">
 
               <div id="!region_2">
                 <?php if(x($page,'content')) echo $page['content']; ?>          
@@ -339,17 +339,18 @@ if (file_exists($filename)) {
 
 
 
-              <div class="col-lg-3 col">
+              <div class="col-lg-4 col">
               <div id="!region_1">
               <?php if(x($page,'aside')) echo $page['aside']; ?>
+              <?php if(x($page,'right_aside')) echo $page['right_aside']; ?>
               </div>
               </div>              
 
 
-              <div class="col-lg-2 col">              
+              <div class="!col-lg-2 col">              
 
               <div id="!region_3">
-              <?php if(x($page,'right_aside')) echo $page['right_aside']; ?>
+              
               </div>
 
 

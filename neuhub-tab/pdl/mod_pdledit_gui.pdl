@@ -1,4 +1,4 @@
-[layout=threecolfluid][/layout]
+[template=threecolfluid][/template]
 [region=aside]
 [widget=notifications][/widget]
 [widget=fullprofile][/widget]

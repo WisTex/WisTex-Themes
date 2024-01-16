@@ -271,6 +271,7 @@
 
 
           {{$userinfo.testplugin.sidebar_before}}
+          {{$userinfo.extra_theme_vars.sidebar_before}}
           {{$usermenu["neuhub-tab"].sidebar_before}}
           {{$userinfo["neuhub-tab"].sidebar_before}}
           {{$usermenu["neuhubtab"].sidebar_before}}

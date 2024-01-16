@@ -225,7 +225,7 @@ if (file_exists($filename)) {
 
     </style>
   </head>
-  <body class="layout-fluid">
+  <body >
     <?php /* Moved to theme_init.php <script src="/view/theme/neuhub-tabler/dist/js/demo-theme.min.js?1685973381"></script> */ ?>
     <script src="/view/theme/neuhub-tab/dist/js/demo-theme.min.js?1685973381"></script>
     <div class="page">
@@ -288,12 +288,10 @@ if (file_exists($filename)) {
 
               </div>
 
+              <div class="col-lg-8">
 
-              <div class="col-lg-8 col">
 
-              <div id="!region_2">
                 <?php if(x($page,'content')) echo $page['content']; ?>          
-              </div>
 
                 <!--
                 <div class="card !card-lg">
@@ -336,22 +334,10 @@ if (file_exists($filename)) {
                 </div>
     -->
               </div>
+              <div class="col-lg-4">
 
-
-
-              <div class="col-lg-4 col">
-              <div id="!region_1">
               <?php if(x($page,'aside')) echo $page['aside']; ?>
               <?php if(x($page,'right_aside')) echo $page['right_aside']; ?>
-              </div>
-              </div>              
-
-
-              <div class="!col-lg-2 col">              
-
-              <div id="!region_3">
-              
-              </div>
 
 
 

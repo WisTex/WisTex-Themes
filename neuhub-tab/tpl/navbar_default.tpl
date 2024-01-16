@@ -1,6 +1,6 @@
 <!-- begin default navbar template -->
 
-{{* debug *}}
+{{debug}}
 
 {{* import variables from neuhub-config.php so they are available in this template *}}
 {{include file="neuhub-config.tpl"}}

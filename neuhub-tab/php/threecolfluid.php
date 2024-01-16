@@ -230,18 +230,7 @@ if (file_exists($filename)) {
     <script src="/view/theme/neuhub-tab/dist/js/demo-theme.min.js?1685973381"></script>
     
     
-  <main>
-		<div class="content">
-			<div class="columns">
-				<aside id="region_1" class="d-none d-lg-block"><div class="aside_spacer_top_left"></div><div class="aside_spacer_left"><div id="left_aside_wrapper" class="aside_wrapper"><?php if(x($page,'aside')) echo $page['aside']; ?></div></div></aside>
-				<section id="region_2"><?php if(x($page,'content')) echo $page['content']; ?>
-					<div id="page-footer"></div>
-					<div id="pause"></div>
-				</section>
-				<aside id="region_3" class="d-none d-xl-block"><div class="aside_spacer_top_right"></div><div class="aside_spacer_right"><div id="right_aside_wrapper" class="aside_wrapper"><?php if(x($page,'right_aside')) echo $page['right_aside']; ?></div></div></aside>
-			</div>
-		</div>
-	</main>    
+
     
     <div class="page">
 
@@ -301,7 +290,18 @@ if (file_exists($filename)) {
         </div>
 
 
-
+        <main>
+		<div class="content">
+			<div class="columns">
+				<aside id="region_1" class="d-none d-lg-block"><div class="aside_spacer_top_left"></div><div class="aside_spacer_left"><div id="left_aside_wrapper" class="aside_wrapper"><?php if(x($page,'aside')) echo $page['aside']; ?></div></div></aside>
+				<section id="region_2"><?php if(x($page,'content')) echo $page['content']; ?>
+					<div id="page-footer"></div>
+					<div id="pause"></div>
+				</section>
+				<aside id="region_3" class="d-none d-xl-block"><div class="aside_spacer_top_right"></div><div class="aside_spacer_right"><div id="right_aside_wrapper" class="aside_wrapper"><?php if(x($page,'right_aside')) echo $page['right_aside']; ?></div></div></aside>
+			</div>
+		</div>
+	</main>    
 
 
         <footer class="footer footer-transparent d-print-none">

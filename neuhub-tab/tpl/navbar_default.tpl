@@ -429,7 +429,7 @@
 
             
 
-              {{if $smarty.server.SCRIPT_URL == "/" or $smarty.server.SCRIPT_URL == "/home" or $smarty.server.SCRIPT_URL == "/$userinfo["neuhub-tab"].home_path"}}
+              {{if $smarty.server.SCRIPT_URL == "/" or $smarty.server.SCRIPT_URL == "/home" or $smarty.server.SCRIPT_URL == '/$userinfo["neuhub-tab"].home_path'}}
                 {{assign var="ClassMenuHome" value=" active"}}
               {{/if}}
 

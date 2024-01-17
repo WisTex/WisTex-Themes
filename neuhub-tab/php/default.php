@@ -228,9 +228,7 @@ if (file_exists($filename)) {
     /* allow the text area to expand vertically in size with a horizontal scrollbar if pre-existing content is added to the box before rendering. Remove this if you want a pre-set height. Use "em" to match the font size set in the website. */
     height: auto;
     /* Use "em" to define the height based on the text size set in your website and the text rows in the box, not a static pixel value. */
-    min-height: 20em;
-    /* Do not use "border" in textareas unless you want to remove the 3D box most browsers assign and flatten the box design. */
-    /*border: 1px solid black;*/
+    min-height: 25em !important;
     cursor: text;
     /* Some textareas have a light gray background by default anyway. */
     

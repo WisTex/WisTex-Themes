@@ -429,7 +429,7 @@
 
             
 
-              {{if $smarty.server.SCRIPT_URL == "/" or $smarty.server.SCRIPT_URL == "/home"}}
+              {{if $smarty.server.SCRIPT_URL == "/" or $smarty.server.SCRIPT_URL == "/home" or $smarty.server.SCRIPT_URL == "/{{$userinfo["neuhub-tab"].home_path}}"}}
                 {{assign var="ClassMenuHome" value=" active"}}
               {{/if}}
 
@@ -663,7 +663,7 @@
               {{/if}}
 
               <li class="nav-item{{$ClassMenuHome}}">
-              <a class="nav-link" href="{{$userinfo.extra_theme_vars.home_domain}}{{$userinfo.testplugin.home_domain}}/{{$userinfo.extra_theme_vars.home_path}}{{$userinfo.testplugin.home_path}}" >
+              <a class="nav-link" href="{{$userinfo["neuhub-tab"].home_domain}}/{{$userinfo["neuhub-tab"].home_path}}" >
                 <span class="nav-link-icon d-md-none d-lg-inline-block">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l-2 0l9 -9l9 9l-2 0" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
                 </span>
@@ -1612,7 +1612,7 @@
                 {{* If Not Logged In *}}
 
                 <li class="nav-item">
-                  <a class="nav-link" href="/" >
+                  <a class="nav-link" href="{{$userinfo["neuhub-tab"].home_domain}}/{{$userinfo["neuhub-tab"].home_path}}" >
                     <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/home -->
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l-2 0l9 -9l9 9l-2 0" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
                     </span>

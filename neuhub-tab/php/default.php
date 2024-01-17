@@ -223,20 +223,20 @@ if (file_exists($filename)) {
         background-color: var(--bs-tertiary-bg);
       }
 
-
+      /* For the Extra Theme Variables Addon */
       .field_id_custom_var_value {
-    /* allow the text area to expand vertically in size with a horizontal scrollbar if pre-existing content is added to the box before rendering. Remove this if you want a pre-set height. Use "em" to match the font size set in the website. */
-    height: auto;
-    /* Use "em" to define the height based on the text size set in your website and the text rows in the box, not a static pixel value. */
-    min-height: 25em !important;
-    cursor: text;
-    /* Some textareas have a light gray background by default anyway. */
-    
-    /* Overflow "auto" allows the box to start with no scrollbars but add them as content fills the box. */
-    overflow: auto;
-    /* Resize creates a tab in the lower right corner of textarea for most modern browsers and allows users to resize the box manually. Note: Resize isn't supported by most older agents and IE. */
-    resize: both;
-}
+        /* allow the text area to expand vertically in size with a horizontal scrollbar if pre-existing content is added to the box before rendering. Remove this if you want a pre-set height. Use "em" to match the font size set in the website. */
+        height: auto;
+        /* Use "em" to define the height based on the text size set in your website and the text rows in the box, not a static pixel value. */
+        min-height: 25em !important;
+        cursor: text;
+        /* Some textareas have a light gray background by default anyway. */
+        
+        /* Overflow "auto" allows the box to start with no scrollbars but add them as content fills the box. */
+        overflow: auto;
+        /* Resize creates a tab in the lower right corner of textarea for most modern browsers and allows users to resize the box manually. Note: Resize isn't supported by most older agents and IE. */
+        resize: both;
+      }
       
     </style>
   </head>

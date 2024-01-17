@@ -274,6 +274,8 @@
           {{$userinfo.extra_theme_vars.sidebar_before}}
           {{$userinfo["neuhub-tab"].sidebar_before}}
           {{$userinfo["neuhubtab"].sidebar_before}}
+          {{$userinfo["neuhub-tab"].testbefore}}
+          {{$userinfo["neuhub-tab"].testafter}}
 
 
           {{if $localuser}} 

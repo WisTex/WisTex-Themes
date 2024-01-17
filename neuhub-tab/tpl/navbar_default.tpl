@@ -253,6 +253,7 @@
                 </a>        				
             {{/if}}
 
+            {{$userinfo["neuhub-tab"].user_dropdown_menu_mobile}}
               <!--
                 <a href="/channel" class="dropdown-item">View Channel</a>
                 <a href="/profile/wistex" class="dropdown-item">View Profile</a>
@@ -274,8 +275,7 @@
           {{$userinfo.extra_theme_vars.sidebar_before}}
           {{$userinfo["neuhub-tab"].sidebar_before}}
           {{$userinfo["neuhubtab"].sidebar_before}}
-          {{$userinfo["neuhub-tab"].testbefore}}
-          {{$userinfo["neuhub-tab"].testafter}}
+          
 
 
           {{if $localuser}} 
@@ -416,6 +416,7 @@
 
               {{$userinfo.testplugin.sidebar_above_menu}}  
               {{$userinfo.extra_theme_vars.sidebar_above_menu}}  
+              {{$userinfo["neuhub-tab"].sidebar_above_menu}}
               
 
             <ul class="navbar-nav pt-lg-3">
@@ -423,6 +424,7 @@
 
             {{$userinfo.testplugin.sidebar_before_menu}}
             {{$userinfo.extra_theme_vars.sidebar_before_menu}}
+            {{$userinfo["neuhub-tab"].sidebar_li_before_menu}}
             
 
             
@@ -673,6 +675,7 @@
 
             {{$userinfo.testplugin.sidebar_after_home}}
             {{$userinfo.extra_theme_vars.sidebar_after_home}}
+            {{$userinfo["neuhub-tab"].sidebar_li_after_home}}
             
             
 
@@ -1164,6 +1167,7 @@
 
             {{$userinfo.testplugin.sidebar_after}}
             {{$userinfo.extra_theme_vars.sidebar_after}}
+            {{$userinfo["neuhub-tab"].sidebar_li_after_menu}}
             
             
 
@@ -1176,6 +1180,8 @@
 
             {{if $localuser}}
 
+
+              {{$userinfo["neuhub-tab"].sidebar_li_after_menu_localuser}}
               <!--
               <li><hr></li>
 
@@ -1313,6 +1319,7 @@
 
             {{$userinfo.testplugin.sidebar_below_menu}}  
             {{$userinfo.extra_theme_vars.sidebar_below_menu}}  
+            {{$userinfo["neuhub-tab"].sidebar_below_menu}}
             
 
           </div>
@@ -1554,7 +1561,7 @@
                 </a>
             {{/if}}
 
-
+            {{$userinfo["neuhub-tab"].user_dropdown_menu_desktop}}
 
 
 

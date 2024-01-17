@@ -429,7 +429,7 @@
 
             
 
-              {{if $smarty.server.SCRIPT_URL == "/" or $smarty.server.SCRIPT_URL == "/home" or $smarty.server.SCRIPT_URL == "/".$userinfo["neuhub-tab"].home_path}}
+              {{if $smarty.server.SCRIPT_URL == "/" or $smarty.server.SCRIPT_URL == "/home"}}
                 {{assign var="ClassMenuHome" value=" active"}}
               {{/if}}
 
@@ -1622,6 +1622,8 @@
                   </a>
                 </li>
 
+                {{$userinfo["neuhub-tab"].topmenu_li_after_home_loggedout}}
+
                 <!-- The login link is better hidden on private hubs. You can still get to it in the dropdown or other ways. -->
                 <!-- uncomment if you want this to appear in the top menu bar. -->
                 <!-- 
@@ -1681,7 +1683,7 @@
 
                 
                 <li class="nav-item">
-                  <a class="nav-link" href="/" >
+                  <a class="nav-link" href="{{$userinfo["neuhub-tab"].home_domain}}/{{$userinfo["neuhub-tab"].home_path}}" >
                     <span class="nav-link-icon d-md-none d-lg-inline-block">
                     <!--
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l-2 0l9 -9l9 9l-2 0" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
@@ -1694,6 +1696,7 @@
                   </a>
                 </li>
                 
+                {{$userinfo["neuhub-tab"].topmenu_li_after_home_loggedin}}
               
                 {{if $userinfo.addr}}
                 
@@ -1713,6 +1716,18 @@
                     </span>
                   </a>
                 </li> 
+
+                <li class="nav-item">
+                  <a class="nav-link" href="/channel/scott" >
+                        <span class="nav-link-icon d-md-none d-lg-inline-block">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-broadcast" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 19.364a9 9 0 1 0 -12.728 0" /><path d="M15.536 16.536a5 5 0 1 0 -7.072 0" /><path d="M12 13m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /></svg>
+                    </span>
+                    <span class="nav-link-title">
+                      Posts
+                    </span>
+                  </a>
+                </li> 
+
                 -->               
 
                 {{/if}}

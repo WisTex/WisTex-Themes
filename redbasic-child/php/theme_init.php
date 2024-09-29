@@ -1,7 +1,7 @@
 <?php
 
 // Add your custom CSS files here.
-head_add_css('/library/fork-awesome/css/fork-awesome.min.css');
+head_add_css('/vendor/twbs/bootstrap-icons/font/bootstrap-icons.min.css');
 head_add_css('/vendor/twbs/bootstrap/dist/css/bootstrap.min.css');
 head_add_css('/library/bootstrap-tagsinput/bootstrap-tagsinput.css');
 head_add_css('/view/css/bootstrap-red.css');

@@ -1,8 +1,8 @@
 [region=aside]
 [widget=Menu_profile][/widget]
 [widget=settings_menu][/widget]
-[widget=Menu_more_settings]
-[widget=menu_stream_hq][/widget][/widget]
+[widget=Menu_more_settings][/widget]
+[widget=menu_stream_hq][/widget]
 
 [/region]
 [region=content]

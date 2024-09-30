@@ -535,7 +535,7 @@ body {
 
     <footer><?php if(x($page,'footer')) echo $page['footer']; ?></footer>    
 
-<nav class="navbar navbar-expand-lg sticky-bottom bg-body-tertiary">
+<nav class="navbar navbar-expand-lg !sticky-bottom bg-body-tertiary">
   <div class="container-fluid">
     
     <a class="navbar-brand" href="https://federated.works">Federated Works</a>

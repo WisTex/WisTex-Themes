@@ -172,8 +172,9 @@
     display: block;
     }
     .sidebar .nav-links li .custom-sub-menu a{
-    color: #1d1b31;
-    font-size: 15px;
+    /* color: #1d1b31; */
+    color: black;
+    /* font-size: 15px; */ 
     padding: 5px 0;
     white-space: nowrap;
     opacity: 0.6;

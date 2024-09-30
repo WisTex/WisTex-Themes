@@ -377,7 +377,7 @@ body {
           <span class="link_name">Notifications</span>
         </a>
         <ul class="custom-sub-menu blank">
-          <li><a class="link_name" href="/notifications">Headquarters (HQ)</a></li>
+          <li><a class="link_name" href="/notifications">Notifications</a></li>
         </ul>
       </li>      
       <li class="active">
@@ -389,13 +389,13 @@ body {
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
         <ul class="custom-sub-menu">
-          <li><a class="link_name" href="#">Channel</a></li>
-          <li><a href="#">View Channel</a></li>
-          <li><a href="#">View Profile</a></li>
-          <li><a href="#">Edit Profile</a></li>
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Files</a></li>
-          <li><a href="#">Calendar</a></li>
+          <li><a class="link_name" href="/channel/info">Channel</a></li>
+          <li><a href="/channel/info">View Channel</a></li>
+          <li><a href="/profile/info">View Profile</a></li>
+          <li><a href="/profiles/1">Edit Profile</a></li>
+          <li><a href="/photos/info">Photos</a></li>
+          <li><a href="/cloud/info">Files</a></li>
+          <li><a href="/cdav/calendar">Calendar</a></li>
         </ul>
       </li>
       <li>

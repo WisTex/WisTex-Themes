@@ -337,11 +337,10 @@ body {
         display: none;
     }
 
-    .sidebar .nav-links li i{
-    height: 50px;
-    min-width: 0px;
-    width: 0px;
-    }
+    .sidebar.close ~ .home-section {
+    left: 0px;
+    width: calc(100% - 0px);
+}
 
     }
 </style>

@@ -545,18 +545,18 @@ body {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 float-end">
+        <li class="nav-item float-end">
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item float-end">
           <a class="nav-link" href="/siteinfo">Site Info</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item float-end">
           <a class="nav-link" href="#">Privacy</a>
         </li>
       </ul>
-      <span class="navbar-text">
+      <span class="navbar-text float-begin">
         Copyright &copy;2024 <a href="https://federated.works">Federated Works</a>.
       </span>
     </div>

@@ -359,7 +359,7 @@ body {
           <span class="link_name">Home</span>
         </a>
         <ul class="custom-sub-menu blank">
-          <li><a class="link_name" href="#">Home</a></li>
+          <li><a class="link_name" href="/home">Home</a></li>
         </ul>
       </li>
     <li>
@@ -368,22 +368,34 @@ body {
           <span class="link_name">Headquarters (HQ)</span>
         </a>
         <ul class="custom-sub-menu blank">
-          <li><a class="link_name" href="#">Headquarters (HQ)</a></li>
+          <li><a class="link_name" href="/hq">Headquarters (HQ)</a></li>
         </ul>
       </li>
+      <li>
+        <a href="/hq">
+          <i class='bx bxs-castle' ></i>
+          <span class="link_name">Notifications</span>
+        </a>
+        <ul class="custom-sub-menu blank">
+          <li><a class="link_name" href="/notifications">Headquarters (HQ)</a></li>
+        </ul>
+      </li>      
       <li class="active">
         <div class="iocn-link">
           <a href="#">
             <i class='bx bx-collection' ></i>
-            <span class="link_name">Category</span>
+            <span class="link_name">Channel</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
         <ul class="custom-sub-menu">
-          <li><a class="link_name" href="#">Category</a></li>
-          <li><a href="#">HTML & CSS</a></li>
-          <li><a href="#">JavaScript</a></li>
-          <li><a href="#">PHP & MySQL</a></li>
+          <li><a class="link_name" href="#">Channel</a></li>
+          <li><a href="#">View Channel</a></li>
+          <li><a href="#">View Profile</a></li>
+          <li><a href="#">Edit Profile</a></li>
+          <li><a href="#">Photos</a></li>
+          <li><a href="#">Files</a></li>
+          <li><a href="#">Calendar</a></li>
         </ul>
       </li>
       <li>

@@ -16,6 +16,7 @@ require_once('view/php/theme_init.php');
 
 // Add your custom JS files here.
 head_add_js('/vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js');
+head_add_js('/view/theme/redbasic-plus/js/jquery-3.2.1.slim.min.js');
 head_add_js('/library/bootbox/bootbox.min.js');
 head_add_js('/library/bootstrap-tagsinput/bootstrap-tagsinput.js');
 head_add_js('/library/datetimepicker/jquery.datetimepicker.js');

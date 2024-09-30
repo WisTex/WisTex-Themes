@@ -61,13 +61,15 @@ body {
 
 <style>
     footer {
-        /*align: center;
-        max-width: 900px; */
+        align: center;
+        width=100%;
+        max-width: 1316px;
     }
 </style>
 
 <div id="blog-margin">
     <footer><?php if(x($page,'footer')) echo $page['footer']; ?>
+            Copyright &copy;
             <span class="float-end">
                 <a href="/">Home</a>
             </span>

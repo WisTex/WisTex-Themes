@@ -55,6 +55,6 @@ body {
 			</div>
 		</div>
 	</main>
-	<footer><?php if(x($page,'footer')) echo $page['footer']; ?></footer>
+	<footer><?php if(x($page,'footer')) echo $page['footer']; ?><a href="/">Home</a></footer>
 </body>
 </html>

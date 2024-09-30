@@ -324,10 +324,19 @@
       <span class="logo_name">CodingLab</span>
     </div>
     <ul class="nav-links">
-      <li>
-        <a href="#">
+    <li>
+        <a href="/">
           <i class='bx bx-grid-alt' ></i>
-          <span class="link_name">Dashboard</span>
+          <span class="link_name">Home</span>
+        </a>
+        <ul class="custom-sub-menu blank">
+          <li><a class="link_name" href="#">Category</a></li>
+        </ul>
+      </li>
+    <li>
+        <a href="/hq">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Headquarters (HQ)</span>
         </a>
         <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="#">Category</a></li>

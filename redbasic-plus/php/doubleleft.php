@@ -55,8 +55,12 @@ body {
 			</div>
 		</div>
 
-        <footer><?php if(x($page,'footer')) echo $page['footer']; ?><a href="/">Home</a></footer>
-        
+        <footer><?php if(x($page,'footer')) echo $page['footer']; ?>
+            <span class="pull-right">
+                <a href="/">Home</a>
+            </span>
+        </footer>
+
 	</main>
 	
 </body>

@@ -537,8 +537,8 @@ body {
 
     <footer><?php if(x($page,'footer')) echo $page['footer']; ?></footer>    
 
-<nav class="navbar navbar-expand-lg !sticky-bottom bg-body-tertiary">
-  <div class="container-fluid fixed-bottom">
+<nav class="navbar navbar-expand-lg !sticky-bottom bg-body-tertiary pb-3">
+  <div class="container-flui">
     
     <a class="navbar-brand" href="https://federated.works">Federated Works</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">

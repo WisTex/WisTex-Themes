@@ -336,6 +336,13 @@ body {
     .sidebar.close .nav-links li .custom-sub-menu{
         display: none;
     }
+
+    .sidebar .nav-links li i{
+    height: 50px;
+    min-width: 0px;
+    width: 0px;
+    }
+
     }
 </style>
 

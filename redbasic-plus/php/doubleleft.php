@@ -54,7 +54,10 @@ body {
 				</section>
 			</div>
 		</div>
+
+        <footer><?php if(x($page,'footer')) echo $page['footer']; ?><a href="/">Home</a></footer>
+        
 	</main>
-	<footer><?php if(x($page,'footer')) echo $page['footer']; ?><a href="/">Home</a></footer>
+	
 </body>
 </html>

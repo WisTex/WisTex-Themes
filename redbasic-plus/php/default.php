@@ -225,7 +225,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #1d1b31;
+    /* background: #1d1b31; */
     padding: 12px 0;
     transition: all 0.5s ease;
     }
@@ -245,7 +245,8 @@
     object-fit: cover;
     border-radius: 16px;
     margin: 0 14px 0 12px;
-    background: #1d1b31;
+    /* background: #1d1b31; */
+
     transition: all 0.5s ease;
     }
     .sidebar.close .profile-details img{

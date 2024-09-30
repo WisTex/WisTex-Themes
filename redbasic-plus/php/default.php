@@ -431,12 +431,14 @@
   </li>
 </ul>
   </div>
+  <!--
   <section class="home-section">
     <div class="home-content">
       <i class='bx bx-menu' ></i>
       <span class="text">Drop Down Sidebar</span>
     </div>
   </section>
+-->
 
 
 <script>
@@ -456,6 +458,10 @@
     });
 
   </script>
+
+
+<section class="home-section">
+<div class="home-content">
 
 <!-- END -->
 
@@ -479,7 +485,8 @@
 		</div>
 	</main>
 
-
+    </div>
+  </section>
 
 	<footer><?php if(x($page,'footer')) echo $page['footer']; ?></footer>
 

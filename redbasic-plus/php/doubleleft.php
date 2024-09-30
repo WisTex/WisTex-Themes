@@ -64,6 +64,7 @@ body {
         align: center;
         max-width: 900px;
     }
+</style>
 
     <footer><?php if(x($page,'footer')) echo $page['footer']; ?>
             <span class="float-end">

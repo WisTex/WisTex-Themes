@@ -31,6 +31,7 @@
 <style>
 
         /* Google Fonts Import Link */
+        /*
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
     *{
     margin: 0;
@@ -38,14 +39,16 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     }
+    */
     .sidebar{
     position: fixed;
-    top: 0;
+    top: 53px;
     left: 0;
     height: 100%;
     width: 260px;
     z-index: 100;
     transition: all 0.5s ease;
+    background-color: lightsteelblue;
     }
     .sidebar.close{
     width: 78px;
@@ -96,7 +99,7 @@
     .sidebar .nav-links > li:before{
     position:absolute;
     left:0;
-    top:0;
+    top:60px;
     content:'';
     width:4px;
     height:100%;

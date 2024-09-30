@@ -16,7 +16,7 @@
   <script>var baseurl="<?php echo z_root() ?>";</script>
   <?php if(x($page,'htmlhead')) echo $page['htmlhead'] ?>
 </head>
-<body <?php if($page['direction']) echo 'dir="rtl"' ?> onload="changeClass()">
+<body <?php if($page['direction']) echo 'dir="rtl"' ?> onload="changeSidebarClass()">
 
 
 <style>
@@ -570,7 +570,7 @@ body {
 </div>
 
 <script>
-function changeClass() {
+function changeSidebarClass() {
     var x = document.getElementsByClassName('sidebar-response');
     var width = (window.innerHeight > 0) ? window.innerHeight : screen.Height;
     console.log(width);

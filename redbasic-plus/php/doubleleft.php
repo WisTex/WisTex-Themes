@@ -244,7 +244,7 @@ body {
     }
     .sidebar .profile-details{
     position: fixed;
-    bottom: 49px;
+    bottom: 0;
     width: 260px;
     display: flex;
     align-items: center;

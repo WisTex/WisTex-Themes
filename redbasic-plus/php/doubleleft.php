@@ -16,7 +16,7 @@
   <script>var baseurl="<?php echo z_root() ?>";</script>
   <?php if(x($page,'htmlhead')) echo $page['htmlhead'] ?>
 </head>
-<body <?php if($page['direction']) echo 'dir="rtl"' ?> onload="changeSidebarClass()">
+<body <?php if($page['direction']) echo 'dir="rtl"' ?> >
 
 
 <style>

@@ -67,6 +67,7 @@ body {
     }
 </style>
 
+<main>
 <div id="blog-margin">
     <footer><?php if(x($page,'footer')) echo $page['footer']; ?>
             Copyright &copy;
@@ -74,6 +75,8 @@ body {
                 <a href="/">Home</a>
             </span>
         </footer>    
-</dic>
+</div>
+</main>
+
 </body>
 </html>

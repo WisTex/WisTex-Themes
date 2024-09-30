@@ -1,8 +1,5 @@
 [template]doubleleft[/template]
 [region=aside]
-[widget=Menu_profile][/widget]
-[widget=settings_menu][/widget]
-[widget=Menu_more_settings][/widget]
 
 [/region]
 [region=content]

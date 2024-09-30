@@ -19,7 +19,18 @@
 </head>
 <body <?php if($page['direction']) echo 'dir="rtl"' ?> >
 
+<style>
 
+[data-bs-theme=light] .navbar.bg-body-tertiary {
+    background-color: rgba(176, 195, 222, 1) !important;
+}
+
+[data-bs-theme=light] {
+    --hz-body-bg: rgba(215,233,247,1);
+    --hz-body-bg-image: url(style.css);
+}
+
+</style>
 
 	<?php if(x($page,'banner')) echo $page['banner']; ?>
 	<header><?php if(x($page,'header')) echo $page['header']; ?></header>

@@ -545,6 +545,11 @@ body {
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
+
+    <span class="navbar-text me-auto">
+        Copyright &copy;2024 <a href="https://federated.works">Federated Works</a>.
+      </span>    
+
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/">Home</a>
@@ -556,9 +561,7 @@ body {
           <a class="nav-link" href="#">Privacy</a>
         </li>
       </ul>
-      <span class="navbar-text me-auto">
-        Copyright &copy;2024 <a href="https://federated.works">Federated Works</a>.
-      </span>
+
     </div>
 
   </div>

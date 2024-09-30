@@ -59,6 +59,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    background-color: lightsteelblue;
     }
     .sidebar .logo-details i{
     font-size: 30px;
@@ -228,6 +229,7 @@
     align-items: center;
     justify-content: space-between;
     /* background: #1d1b31; */
+    background: steelblue;
     padding: 12px 0;
     transition: all 0.5s ease;
     }

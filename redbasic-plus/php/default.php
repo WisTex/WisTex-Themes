@@ -48,8 +48,8 @@
     width: 260px;
     z-index: 100;
     transition: all 0.5s ease;
-    /* background-color: lightsteelblue; */
-    background-color: #eeeeee;
+    background-color: lightsteelblue;
+    /* background-color: #eeeeee; */
     }
     .sidebar.close{
     width: 78px;
@@ -59,7 +59,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: lightsteelblue;
+    background-color: steelblue;
     }
     .sidebar .logo-details i{
     font-size: 30px;

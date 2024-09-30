@@ -342,8 +342,8 @@ body {
 
 <div class="sidebar bg-body-tertiary d-none d-sm-block close">
     <div class="logo-details">
-      <i class='bx bxl-c-plus-plus'></i>
-      <span class="logo_name">CodingLab</span>
+      <i class='bx bx-network-chart'></i>
+      <span class="logo_name">Hubzilla</span>
     </div>
     <ul class="nav-links">
     <li>
@@ -352,7 +352,7 @@ body {
           <span class="link_name">Home</span>
         </a>
         <ul class="custom-sub-menu blank">
-          <li><a class="link_name" href="#">Category</a></li>
+          <li><a class="link_name" href="#">Home</a></li>
         </ul>
       </li>
     <li>
@@ -361,7 +361,7 @@ body {
           <span class="link_name">Headquarters (HQ)</span>
         </a>
         <ul class="custom-sub-menu blank">
-          <li><a class="link_name" href="#">Category</a></li>
+          <li><a class="link_name" href="#">Headquarters (HQ)</a></li>
         </ul>
       </li>
       <li class="active">

@@ -79,7 +79,7 @@ body {
     width: 100%;
     display: flex;
     align-items: center;
-    background-color: steelblue;
+    /* background-color: steelblue; */
     }
     .sidebar .logo-details i{
     font-size: 30px;

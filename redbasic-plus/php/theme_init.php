@@ -8,6 +8,8 @@ head_add_css('/view/css/bootstrap-red.css');
 head_add_css('/library/datetimepicker/jquery.datetimepicker.css');
 head_add_css('/library/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.min.css');
 head_add_css('/view/css/default.css');
+head_add_css('/view/theme/redbasic-plus/fonts/fontawesome6/css/all.css');
+
 
 require_once('view/php/theme_init.php');
 

@@ -347,7 +347,7 @@ body {
 </style>
 
 
-<div class="sidebar sidebar-response bg-body-tertiary d-none d-sm-block !close">
+<div class="sidebar sidebar-response bg-body-tertiary d-none d-sm-block close">
     <div class="logo-details">
       <i class='bx bx-network-chart'></i>
       <span class="logo_name">Hubzilla</span>
@@ -372,7 +372,7 @@ body {
         </ul>
       </li>
       <li>
-        <a href="/hq">
+        <a href="/notifications">
           <i class='bx bxs-castle' ></i>
           <span class="link_name">Notifications</span>
         </a>
@@ -382,7 +382,7 @@ body {
       </li>      
       <li class="active">
         <div class="iocn-link">
-          <a href="#">
+          <a href="/channel/info">
             <i class='bx bx-collection' ></i>
             <span class="link_name">Channel</span>
           </a>

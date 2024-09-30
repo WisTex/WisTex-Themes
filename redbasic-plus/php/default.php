@@ -636,9 +636,7 @@
     </div>
   </main>
 -->
-  <!-- page-content" -->
-</div>
-<!-- page-wrapper" -->
+
 
 
 
@@ -682,6 +680,13 @@ jQuery(function ($) {
 			</div>
 		</div>
 	</main>
+
+
+
 	<footer><?php if(x($page,'footer')) echo $page['footer']; ?></footer>
+
+  <!-- page-content" -->
+  </div>
+<!-- page-wrapper" -->    
 </body>
 </html>

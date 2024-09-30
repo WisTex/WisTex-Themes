@@ -2,7 +2,6 @@
 [widget=Menu_profile][/widget]
 [widget=settings_menu][/widget]
 [widget=Menu_more_settings][/widget]
-[widget=menu_stream_hq][/widget]
 
 [/region]
 [region=content]
@@ -10,6 +9,7 @@ $content
 
 [/region]
 [region=right_aside]
+[widget=menu_stream_hq][/widget]
 [widget=notifications][/widget]
 [widget=newmember][/widget]
 

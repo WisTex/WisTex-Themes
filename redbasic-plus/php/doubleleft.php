@@ -55,13 +55,21 @@ body {
 			</div>
 		</div>
 
-        <footer><?php if(x($page,'footer')) echo $page['footer']; ?>
+
+
+	</main>
+
+<style>
+    footer {
+        align: center;
+        max-width: 900px;
+    }
+
+    <footer><?php if(x($page,'footer')) echo $page['footer']; ?>
             <span class="float-end">
                 <a href="/">Home</a>
             </span>
-        </footer>
+        </footer>    
 
-	</main>
-	
 </body>
 </html>

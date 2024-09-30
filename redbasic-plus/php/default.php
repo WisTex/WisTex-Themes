@@ -164,7 +164,7 @@
     .sidebar .nav-links li .custom-sub-menu{
     padding: 6px 6px 14px 80px;
     margin-top: -10px;
-    background: #fff;
+    background: lightsteelblue;
     display: none;
     }
     .sidebar .nav-links li.showMenu .custom-sub-menu{
@@ -315,7 +315,7 @@
 </style>
 
 
-<div class="sidebar close">
+<div class="sidebar !close">
     <div class="logo-details">
       <i class='bx bxl-c-plus-plus'></i>
       <span class="logo_name">CodingLab</span>

@@ -556,7 +556,7 @@ body {
           <a class="nav-link" href="#">Privacy</a>
         </li>
       </ul>
-      <span class="navbar-text">
+      <span class="navbar-text me-auto">
         Copyright &copy;2024 <a href="https://federated.works">Federated Works</a>.
       </span>
     </div>

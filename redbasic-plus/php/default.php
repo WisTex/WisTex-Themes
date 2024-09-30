@@ -25,7 +25,16 @@
     background-color: rgba(176, 195, 222, 1) !important;
 }
 
+.navbar.bg-body-tertiary {
+    background-color: rgba(176, 195, 222, 1) !important;
+}
+
 [data-bs-theme=light] {
+    --hz-body-bg: rgba(215,233,247,1);
+    --hz-body-bg-image: url(style.css);
+}
+
+body {
     --hz-body-bg: rgba(215,233,247,1);
     --hz-body-bg-image: url(style.css);
 }

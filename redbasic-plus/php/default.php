@@ -340,7 +340,7 @@ body {
 </style>
 
 
-<div class="sidebar bg-body-tertiary !close">
+<div class="sidebar bg-body-tertiary d-none d-sm-block !close">
     <div class="logo-details">
       <i class='bx bxl-c-plus-plus'></i>
       <span class="logo_name">CodingLab</span>

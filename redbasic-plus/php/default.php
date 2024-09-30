@@ -672,7 +672,7 @@ jQuery(function ($) {
 <!-- END -->
 
 <main>
-		<div class="content page-content">
+		<div class="content !page-content">
 			<div class="columns">
 				<aside id="region_1" class="d-none d-lg-block"><div class="aside_spacer_top_left"></div><div class="aside_spacer_left"><div id="left_aside_wrapper" class="aside_wrapper"><?php if(x($page,'aside')) echo $page['aside']; ?></div></div></aside>
 				<section id="region_2"><?php if(x($page,'content')) echo $page['content']; ?>

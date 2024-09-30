@@ -347,7 +347,7 @@ body {
 </style>
 
 
-<div class="sidebar bg-body-tertiary d-none d-sm-block close">
+<div class="sidebar bg-body-tertiary d-none d-sm-block sidebarclose">
     <div class="logo-details">
       <i class='bx bx-network-chart'></i>
       <span class="logo_name">Hubzilla</span>
@@ -571,7 +571,7 @@ body {
 
 <script>
 function changeClass() {
-    var x = document.getElementsByClassName('close');
+    var x = document.getElementsByClassName('sidebarclose');
     var width = (window.innerHeight > 0) ? window.innerHeight : screen.Height;
     console.log(width);
     if(width <= 640) {

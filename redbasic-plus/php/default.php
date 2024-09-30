@@ -18,6 +18,9 @@
   <?php if(x($page,'htmlhead')) echo $page['htmlhead'] ?>
 </head>
 <body <?php if($page['direction']) echo 'dir="rtl"' ?> >
+
+<div class="page-wrapper chiller-theme toggled">
+    
 	<?php if(x($page,'banner')) echo $page['banner']; ?>
 	<header><?php if(x($page,'header')) echo $page['header']; ?></header>
 	<?php if(x($page,'nav')) echo $page['nav']; ?>
@@ -503,7 +506,7 @@
 
 
 
-<div class="page-wrapper chiller-theme toggled">
+
   <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
     <i class="fas fa-bars"></i>
   </a>

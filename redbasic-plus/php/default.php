@@ -335,7 +335,7 @@
       </li>
     <li>
         <a href="/hq">
-          <i class='bx bx-castle' ></i>
+          <i class='bx bxs-castle' ></i>
           <span class="link_name">Headquarters (HQ)</span>
         </a>
         <ul class="custom-sub-menu blank">

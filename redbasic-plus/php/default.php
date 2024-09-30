@@ -161,16 +161,16 @@
     opacity: 0;
     pointer-events: none;
     }
-    .sidebar .nav-links li .sub-menu{
+    .sidebar .nav-links li .custom-sub-menu{
     padding: 6px 6px 14px 80px;
     margin-top: -10px;
     background: #fff;
     display: none;
     }
-    .sidebar .nav-links li.showMenu .sub-menu{
+    .sidebar .nav-links li.showMenu .custom-sub-menu{
     display: block;
     }
-    .sidebar .nav-links li .sub-menu a{
+    .sidebar .nav-links li .custom-sub-menu a{
     color: #1d1b31;
     font-size: 15px;
     padding: 5px 0;
@@ -178,10 +178,10 @@
     opacity: 0.6;
     transition: all 0.3s ease;
     }
-    .sidebar .nav-links li .sub-menu a:hover{
+    .sidebar .nav-links li .custom-sub-menu a:hover{
     opacity: 1;
     }
-    .sidebar.close .nav-links li .sub-menu{
+    .sidebar.close .nav-links li .custom-sub-menu{
     position: absolute;
     left: 100%;
     top: -10px;
@@ -193,28 +193,28 @@
     pointer-events: none;
     transition: 0s;
     }
-    .sidebar.close .nav-links li:hover .sub-menu{
+    .sidebar.close .nav-links li:hover .custom-sub-menu{
     top: 0;
     opacity: 1;
     pointer-events: auto;
     transition: all 0.4s ease;
     }
-    .sidebar .nav-links li .sub-menu .link_name{
+    .sidebar .nav-links li .custom-sub-menu .link_name{
     display: none;
     }
-    .sidebar.close .nav-links li .sub-menu .link_name{
+    .sidebar.close .nav-links li .custom-sub-menu .link_name{
     font-size: 18px;
     opacity: 1;
     display: block;
     }
-    .sidebar .nav-links li .sub-menu.blank{
+    .sidebar .nav-links li .custom-sub-menu.blank{
     opacity: 1;
     pointer-events: auto;
     padding: 3px 20px 6px 16px;
     opacity: 0;
     pointer-events: none;
     }
-    .sidebar .nav-links li:hover .sub-menu.blank{
+    .sidebar .nav-links li:hover .custom-sub-menu.blank{
     top: 50%;
     transform: translateY(-50%);
     }
@@ -308,7 +308,7 @@
     font-weight: 600;
     }
     @media (max-width: 420px) {
-    .sidebar.close .nav-links li .sub-menu{
+    .sidebar.close .nav-links li .custom-sub-menu{
         display: none;
     }
     }
@@ -326,7 +326,7 @@
           <i class='bx bx-grid-alt' ></i>
           <span class="link_name">Dashboard</span>
         </a>
-        <ul class="sub-menu blank">
+        <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="#">Category</a></li>
         </ul>
       </li>
@@ -338,7 +338,7 @@
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
-        <ul class="sub-menu">
+        <ul class="custom-sub-menu">
           <li><a class="link_name" href="#">Category</a></li>
           <li><a href="#">HTML & CSS</a></li>
           <li><a href="#">JavaScript</a></li>
@@ -353,7 +353,7 @@
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
-        <ul class="sub-menu">
+        <ul class="custom-sub-menu">
           <li><a class="link_name" href="#">Posts</a></li>
           <li><a href="#">Web Design</a></li>
           <li><a href="#">Login Form</a></li>
@@ -365,7 +365,7 @@
           <i class='bx bx-pie-chart-alt-2' ></i>
           <span class="link_name">Analytics</span>
         </a>
-        <ul class="sub-menu blank">
+        <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="#">Analytics</a></li>
         </ul>
       </li>
@@ -374,7 +374,7 @@
           <i class='bx bx-line-chart' ></i>
           <span class="link_name">Chart</span>
         </a>
-        <ul class="sub-menu blank">
+        <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="#">Chart</a></li>
         </ul>
       </li>
@@ -386,7 +386,7 @@
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
-        <ul class="sub-menu">
+        <ul class="custom-sub-menu">
           <li><a class="link_name" href="#">Plugins</a></li>
           <li><a href="#">UI Face</a></li>
           <li><a href="#">Pigments</a></li>
@@ -398,7 +398,7 @@
           <i class='bx bx-compass' ></i>
           <span class="link_name">Explore</span>
         </a>
-        <ul class="sub-menu blank">
+        <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="#">Explore</a></li>
         </ul>
       </li>
@@ -407,7 +407,7 @@
           <i class='bx bx-history'></i>
           <span class="link_name">History</span>
         </a>
-        <ul class="sub-menu blank">
+        <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="#">History</a></li>
         </ul>
       </li>
@@ -416,7 +416,7 @@
           <i class='bx bx-cog' ></i>
           <span class="link_name">Setting</span>
         </a>
-        <ul class="sub-menu blank">
+        <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="#">Setting</a></li>
         </ul>
       </li>

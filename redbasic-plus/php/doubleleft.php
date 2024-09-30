@@ -16,7 +16,7 @@
   <script>var baseurl="<?php echo z_root() ?>";</script>
   <?php if(x($page,'htmlhead')) echo $page['htmlhead'] ?>
 </head>
-<body <?php if($page['direction']) echo 'dir="rtl"' ?> >
+<body <?php if($page['direction']) echo 'dir="rtl"' ?> onload="changeClass()">
 
 
 <style>
@@ -568,6 +568,23 @@ body {
 </nav>
 
 </div>
+
+<script>
+function changeClass() {
+    var x = document.getElementsByClassName('close');
+    var width = (window.innerHeight > 0) ? window.innerHeight : screen.Height;
+    console.log(width);
+    if(width <= 640) {
+        while(x.length > 0) {
+            x[1].className ='close'; 
+        }
+    } else {
+        while(x.length > 0) {
+            x[0].className = "showMenu";
+        }
+    }
+}
+</script>
 
 </body>
 </html>

@@ -48,7 +48,7 @@
     width: 260px;
     z-index: 100;
     transition: all 0.5s ease;
-    background-color: lightsteelblue;
+    /* background-color: lightsteelblue;*/
     /* background-color: #eeeeee; */
     }
     .sidebar.close{
@@ -320,7 +320,7 @@
 </style>
 
 
-<div class="sidebar !close">
+<div class="sidebar bg-body-tertiary !close">
     <div class="logo-details">
       <i class='bx bxl-c-plus-plus'></i>
       <span class="logo_name">CodingLab</span>

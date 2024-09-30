@@ -540,7 +540,7 @@ body {
 <nav class="navbar navbar-expand-lg !sticky-bottom bg-body-tertiary">
   <div class="container-fluid">
     
-    <a class="navbar-brand" href="https://federated.works">Federated Works</a>
+    <a class="navbar-brand" href="/">Expat License</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

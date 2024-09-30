@@ -69,6 +69,12 @@ body {
 
 	</main>
 
+    <nav class="navbar sticky-bottom bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Sticky bottom</a>
+  </div>
+</nav>
+
 <style>
     footer {
         align: center;

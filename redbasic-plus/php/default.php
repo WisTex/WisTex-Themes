@@ -460,7 +460,7 @@
   </script>
 
 
-<section class="!home-section">
+<section class="home-section">
 <div class="!home-content">
 
 <!-- END -->

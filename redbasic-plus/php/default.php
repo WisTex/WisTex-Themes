@@ -129,7 +129,8 @@
     text-align: center;
     line-height: 50px;
     color: #11101d;
-    font-size: 20px;
+    /* font-size: 20px;*/
+    font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease;
     }

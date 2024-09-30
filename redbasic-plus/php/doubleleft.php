@@ -347,7 +347,7 @@ body {
 </style>
 
 
-<div class="sidebar bg-body-tertiary d-none d-sm-block sidebarclose">
+<div class="sidebar sidebar-response bg-body-tertiary d-none d-sm-block close">
     <div class="logo-details">
       <i class='bx bx-network-chart'></i>
       <span class="logo_name">Hubzilla</span>
@@ -571,16 +571,16 @@ body {
 
 <script>
 function changeClass() {
-    var x = document.getElementsByClassName('sidebarclose');
+    var x = document.getElementsByClassName('sidebar-response');
     var width = (window.innerHeight > 0) ? window.innerHeight : screen.Height;
     console.log(width);
     if(width <= 640) {
         while(x.length > 0) {
-            x[1].className ='close'; 
+            x[1].className ='sidebar sidebar-response bg-body-tertiary d-none d-sm-block close'; 
         }
     } else {
         while(x.length > 0) {
-            x[0].className = "showMenu";
+            x[0].className = "sidebar sidebar-response bg-body-tertiary d-none d-sm-block showMenu";
         }
     }
 }

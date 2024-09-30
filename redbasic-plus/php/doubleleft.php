@@ -66,8 +66,8 @@ body {
 <nav class="navbar sticky-bottom bg-body-tertiary">
   <div class="container-fluid">
     <!-- <a class="navbar-brand" href="#">Sticky bottom</a> -->
-     Copyright &copy;2024 <a href="https://federated.works">Federated Works</a>.
-     <span class="float-end"><a href="/">Home</a> | <a href="/">Home</a>  </span>
+     <p>Copyright &copy;2024 <a href="https://federated.works">Federated Works</a>.</p>
+     <span class="float-end"><a href="/">Home</a> | <a href="/site-info">Site Info</a>  </span>
   </div>
 </nav>
 

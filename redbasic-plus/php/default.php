@@ -326,7 +326,7 @@
     <ul class="nav-links">
     <li>
         <a href="/">
-          <i class='bx bx-grid-alt' ></i>
+          <i class='bx bx-home' ></i>
           <span class="link_name">Home</span>
         </a>
         <ul class="custom-sub-menu blank">
@@ -335,7 +335,7 @@
       </li>
     <li>
         <a href="/hq">
-          <i class='bx bx-grid-alt' ></i>
+          <i class='bx bx-castle' ></i>
           <span class="link_name">Headquarters (HQ)</span>
         </a>
         <ul class="custom-sub-menu blank">

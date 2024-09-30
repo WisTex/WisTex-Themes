@@ -276,7 +276,7 @@
     }
     .home-section{
     position: relative;
-    background: #E4E9F7;
+    /* background: #E4E9F7;  */
     height: 100vh;
     left: 260px;
     width: calc(100% - 260px);
@@ -461,7 +461,7 @@
 
 
 <section class="home-section">
-<div class="home-content">
+<div class="!home-content">
 
 <!-- END -->
 

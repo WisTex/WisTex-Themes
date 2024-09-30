@@ -55,7 +55,10 @@ body {
 			</div>
 		</div>
 
-
+        <p>Copyright &copy;</p>
+            <span class="float-end">
+                <a href="/">Home</a>
+            </span>
 
 	</main>
 

@@ -243,7 +243,7 @@ body {
     }
     .sidebar .profile-details{
     position: fixed;
-    bottom: 0;
+    bottom: 49px;
     width: 260px;
     display: flex;
     align-items: center;

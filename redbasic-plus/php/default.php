@@ -542,6 +542,7 @@ body {
   <!-- page-content" -->
   </div>
 
+  <!--
   <nav class="navbar navbar-expand-lg sticky-bottom bg-body-tertiary">
   <div class="container-fluid">
     
@@ -568,6 +569,7 @@ body {
 
   </div>
 </nav>
+-->
 
   <!-- page-wrapper" -->    
 </body>

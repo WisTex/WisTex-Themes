@@ -55,44 +55,19 @@ body {
 			</div>
 		</div>
 
-        <footer><?php if(x($page,'footer')) echo $page['footer']; ?>
-            Copyright &copy;
-            <span class="float-end">
-                <a href="/">Home</a>
-            </span>
-        </footer>    
+        
 
-        <p>Copyright &copy;</p>
-            <span class="float-end">
-                <a href="/">Home</a>
-            </span>
+
 
 	</main>
 
-    <nav class="navbar sticky-bottom bg-body-tertiary">
+    <footer><?php if(x($page,'footer')) echo $page['footer']; ?></footer>    
+
+<nav class="navbar sticky-bottom bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Sticky bottom</a>
   </div>
 </nav>
-
-<style>
-    footer {
-        align: center;
-        width=100%;
-        max-width: 1316px;
-    }
-</style>
-
-<main>
-<div id="blog-margin">
-    <footer><?php if(x($page,'footer')) echo $page['footer']; ?>
-            Copyright &copy;
-            <span class="float-end">
-                <a href="/">Home</a>
-            </span>
-        </footer>    
-</div>
-</main>
 
 </body>
 </html>

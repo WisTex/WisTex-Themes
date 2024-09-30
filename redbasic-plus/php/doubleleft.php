@@ -55,6 +55,13 @@ body {
 			</div>
 		</div>
 
+        <footer><?php if(x($page,'footer')) echo $page['footer']; ?>
+            Copyright &copy;
+            <span class="float-end">
+                <a href="/">Home</a>
+            </span>
+        </footer>    
+
         <p>Copyright &copy;</p>
             <span class="float-end">
                 <a href="/">Home</a>

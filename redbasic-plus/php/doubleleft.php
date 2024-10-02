@@ -625,6 +625,7 @@ body {
     </div>
   </section>
 
+  <!--
   <div class="fixed-bottom">
 
     <footer><?php if(x($page,'footer')) echo $page['footer']; ?></footer>    
@@ -660,7 +661,7 @@ body {
 </nav>
 
 </div>
-
+-->
 <script>
 function changeSidebarClass() {
     var x = document.getElementsByClassName('sidebar-response');

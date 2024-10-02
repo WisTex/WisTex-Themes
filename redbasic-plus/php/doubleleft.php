@@ -373,7 +373,7 @@ body {
       </li>
       <li>
         <a href="/notifications">
-          <i class='bx bxs-castle' ></i>
+          <i class='bi bi-bell' ></i>
           <span class="link_name">Notifications</span>
         </a>
         <ul class="custom-sub-menu blank">
@@ -402,7 +402,7 @@ body {
       <li>
         <div class="iocn-link">
           <a href="#">
-            <i class='bx bx-book-alt' ></i>
+            <i class="bi bi-chat-left-dots"></i>
             <span class="link_name">Conversations</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
@@ -438,7 +438,7 @@ body {
       <li>
         <div class="iocn-link">
           <a href="#">
-            <i class='bx bx-book-alt' ></i>
+            <i class='bi bi-star-fill' ></i>
             <span class="link_name">Featured Apps</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
@@ -455,7 +455,7 @@ body {
       <li>
         <div class="iocn-link">
           <a href="#">
-            <i class='bx bx-book-alt' ></i>
+            <i class='bi bi-gear' ></i>
             <span class="link_name">Settings</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
@@ -473,7 +473,7 @@ body {
       <li>
         <div class="iocn-link">
           <a href="#">
-            <i class='bx bx-book-alt' ></i>
+            <i class='bibi-sliders' ></i>
             <span class="link_name">Personalization</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>

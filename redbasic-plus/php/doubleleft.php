@@ -417,15 +417,88 @@ body {
           <li><a href="#">Polls</a></li>
         </ul>
       </li>
+
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="link_name">Contacts</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="custom-sub-menu">
+          <li><a class="link_name" href="#">Contacts</a></li>
+          <li><a href="#">Active Connections</a></li>
+          <li><a href="#">All Connections</a></li>
+          <li><a href="#">Connection Requests</a></li>
+          <li><a href="#">Directory</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="link_name">Featured Apps</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="custom-sub-menu">
+          <li><a class="link_name" href="#">Featured Apps</a></li>
+          <li><a href="#">Channel</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">More Apps</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="link_name">Settings</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="custom-sub-menu">
+          <li><a class="link_name" href="#">Settings</a></li>
+          <li><a href="#">Channel Settings</a></li>
+          <li><a href="#">Account Settings</a></li>
+          <li><a href="#">Privacy Settings</a></li>
+          <li><a href="#">Display Settings</a></li>
+          <li><a href="#">Manage Locations</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="link_name">Personalization</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="custom-sub-menu">
+          <li><a class="link_name" href="#">Personalization</a></li>
+          <li><a href="#">Channel Home</a></li>
+          <li><a href="#">Connections</a></li>
+          <li><a href="#">Stream</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Calendar</a></li>
+          <li><a href="#">Photo</a></li>
+        </ul>
+      </li>      
+
       <li>
         <a href="#">
           <i class='bx bx-pie-chart-alt-2' ></i>
-          <span class="link_name">Analytics</span>
+          <span class="link_name">Search</span>
         </a>
         <ul class="custom-sub-menu blank">
-          <li><a class="link_name" href="#">Analytics</a></li>
+          <li><a class="link_name" href="#">Search</a></li>
         </ul>
       </li>
+<!--      
       <li>
         <a href="#">
           <i class='bx bx-line-chart' ></i>
@@ -477,6 +550,9 @@ body {
           <li><a class="link_name" href="#">Setting</a></li>
         </ul>
       </li>
+
+-->
+
       <li>
     <div class="profile-details">
       <div class="profile-content">

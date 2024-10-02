@@ -349,10 +349,11 @@ body {
 
 <div class="sidebar sidebar-response bg-body-tertiary d-none d-sm-block close">
     <div class="logo-details">
-      <i class='bx bx-network-chart'></i>
+      <i class='icon-hz-64'></i>
       <span class="logo_name">Hubzilla</span>
     </div>
     <ul class="nav-links">
+        <!--
     <li>
         <a href="/">
           <i class='bx bx-home' ></i>
@@ -362,6 +363,7 @@ body {
           <li><a class="link_name" href="/home">Home</a></li>
         </ul>
       </li>
+-->
     <li>
         <a href="/hq">
           <i class='bi bi-person-circle' ></i>
@@ -552,7 +554,7 @@ body {
       </li>
 
 -->
-
+<!--
       <li>
     <div class="profile-details">
       <div class="profile-content">
@@ -565,6 +567,7 @@ body {
       <i class='bx bx-log-out' ></i>
     </div>
   </li>
+-->
 </ul>
   </div>
   <!--

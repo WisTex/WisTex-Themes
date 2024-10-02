@@ -473,7 +473,7 @@ body {
       <li>
         <div class="iocn-link">
           <a href="#">
-            <i class='bibi-sliders' ></i>
+            <i class='bi bi-sliders' ></i>
             <span class="link_name">Personalization</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>

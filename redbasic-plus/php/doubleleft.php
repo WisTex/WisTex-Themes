@@ -364,7 +364,7 @@ body {
       </li>
     <li>
         <a href="/hq">
-          <i class='bibi-person-circle' ></i>
+          <i class='bi bi-person-circle' ></i>
           <span class="link_name">Headquarters (HQ)</span>
         </a>
         <ul class="custom-sub-menu blank">

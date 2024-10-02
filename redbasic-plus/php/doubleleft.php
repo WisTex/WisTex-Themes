@@ -364,7 +364,7 @@ body {
       </li>
     <li>
         <a href="/hq">
-          <i class='bx bxs-castle' ></i>
+          <i class='bibi-person-circle' ></i>
           <span class="link_name">Headquarters (HQ)</span>
         </a>
         <ul class="custom-sub-menu blank">
@@ -421,7 +421,7 @@ body {
       <li>
         <div class="iocn-link">
           <a href="#">
-            <i class='bx bx-book-alt' ></i>
+            <i class='bi bi-people' ></i>
             <span class="link_name">Contacts</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
@@ -491,7 +491,7 @@ body {
 
       <li>
         <a href="#">
-          <i class='bx bx-pie-chart-alt-2' ></i>
+          <i class='bi bi-search' ></i>
           <span class="link_name">Search</span>
         </a>
         <ul class="custom-sub-menu blank">

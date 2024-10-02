@@ -438,7 +438,7 @@ body {
       <li>
         <div class="iocn-link">
           <a href="#">
-            <i class='bi bi-star-fill' ></i>
+            <i class='bi bi-star' ></i>
             <span class="link_name">Featured Apps</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>

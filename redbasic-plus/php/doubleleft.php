@@ -383,7 +383,8 @@ body {
       <li class="active">
         <div class="iocn-link">
           <a href="/channel/info">
-            <i class='bx bx-collection' ></i>
+            <!-- <i class='bx bx-collection' ></i> -->
+            <i class='bi bi-house'></i>
             <span class="link_name">Channel</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
@@ -402,15 +403,18 @@ body {
         <div class="iocn-link">
           <a href="#">
             <i class='bx bx-book-alt' ></i>
-            <span class="link_name">Posts</span>
+            <span class="link_name">Conversations</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
         <ul class="custom-sub-menu">
-          <li><a class="link_name" href="#">Posts</a></li>
-          <li><a href="#">Web Design</a></li>
-          <li><a href="#">Login Form</a></li>
-          <li><a href="#">Card Design</a></li>
+          <li><a class="link_name" href="#">Conversations</a></li>
+          <li><a href="#">Inbox / Stream</a></li>
+          <li><a href="#">Direct Messages</a></li>
+          <li><a href="#">Starred Posts</a></li>
+          <li><a href="#">Personal Posts</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Polls</a></li>
         </ul>
       </li>
       <li>

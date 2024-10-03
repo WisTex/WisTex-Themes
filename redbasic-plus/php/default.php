@@ -62,8 +62,7 @@ body {
     */
     .sidebar{
     position: fixed;
-    /* top: 53px; */
-    top: 0;
+    top: 53px;
     left: 0;
     height: 100%;
     width: 260px;

@@ -399,7 +399,7 @@ body {
 
       <li>
         <a href="/cal/info">
-        <i class='bi bi-calendar-date'></i>
+        <i class='bi bi-calendar2-date'></i>
           <span class="link_name">Calendar</span>
         </a>
         <ul class="custom-sub-menu blank">

@@ -355,7 +355,7 @@ body {
 
     <li>
         <a href="/channel/info">
-          <i class='bx bx-home' ></i>
+            <i class='bi bi-house'></i>
           <span class="link_name">Posts</span>
         </a>
         <ul class="custom-sub-menu blank">
@@ -365,7 +365,7 @@ body {
 
       <li>
         <a href="/profile/info">
-          <i class='bx bx-home' ></i>
+        <i class='bi bi-person'></i>
           <span class="link_name">Profile</span>
         </a>
         <ul class="custom-sub-menu blank">
@@ -375,7 +375,7 @@ body {
 
       <li>
         <a href="/photos/info">
-          <i class='bx bx-home' ></i>
+        <i class='bi bi-image'></i>
           <span class="link_name">Photos</span>
         </a>
         <ul class="custom-sub-menu blank">
@@ -385,7 +385,7 @@ body {
 
       <li>
         <a href="/cloud/info">
-          <i class='bx bx-home' ></i>
+        <i class='bi bi-folder'></i>
           <span class="link_name">Files</span>
         </a>
         <ul class="custom-sub-menu blank">
@@ -395,7 +395,7 @@ body {
 
       <li>
         <a href="/cal/info">
-          <i class='bx bx-home' ></i>
+        <i class='bi bi-calendar-date'></i>
           <span class="link_name">Calendar</span>
         </a>
         <ul class="custom-sub-menu blank">
@@ -405,11 +405,11 @@ body {
 
     <li>
         <a href="/hq">
-          <i class='bx bxs-castle' ></i>
+        <i class='bi bi-person-circle' ></i>
           <span class="link_name">Headquarters (HQ)</span>
         </a>
         <ul class="custom-sub-menu blank">
-          <li><a class="link_name" href="#">Headquarters (HQ)</a></li>
+          <li><a class="link_name" href="/hq">Headquarters (HQ)</a></li>
         </ul>
       </li>
 

@@ -355,7 +355,7 @@ body {
 
     <li>
         <a href="/channel/info">
-            <i class='bi bi-house'></i>
+            <i class='bi bi-chat-left-quote'></i>
           <span class="link_name">Posts</span>
         </a>
         <ul class="custom-sub-menu blank">

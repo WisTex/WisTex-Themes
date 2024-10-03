@@ -21,6 +21,7 @@
 
 <style>
 
+/*
 [data-bs-theme=light] .navbar.bg-body-tertiary {
     background-color: rgba(176, 195, 222, 1) !important;
 }
@@ -38,7 +39,7 @@ body {
     --hz-body-bg: rgba(215,233,247,1);
     --hz-body-bg-image: url(style.css);
 }
-
+*/
 </style>
 
 	<?php if(x($page,'banner')) echo $page['banner']; ?>

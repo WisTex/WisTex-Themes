@@ -381,6 +381,7 @@ body {
         </a>
         <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="/photos/info">Photos</a></li>
+          <li><a href="/profile/info">Expat License</a></li>
         </ul>
       </li>      
 
@@ -391,6 +392,7 @@ body {
         </a>
         <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="/cloud/info">Files</a></li>
+          <li><a href="/profile/info">Expat License</a></li>
         </ul>
       </li>      
 
@@ -401,6 +403,7 @@ body {
         </a>
         <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="/cal/info">Calendar</a></li>
+          <li><a href="/profile/info">Expat License</a></li>
         </ul>
       </li>      
 
@@ -411,6 +414,7 @@ body {
         </a>
         <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="/hq">Headquarters (HQ)</a></li>
+          <li><a href="/hq">Scott M. Stolz</a></li>
         </ul>
       </li>
 

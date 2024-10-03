@@ -348,7 +348,7 @@ body {
 
 <div class="sidebar bg-body-tertiary d-none d-sm-block close">
     <div class="logo-details">
-      <i class='bx bx-network-chart'></i>
+    <i class='icon-hz-64'></i>
       <span class="logo_name">Hubzilla</span>
     </div>
     <ul class="nav-links">

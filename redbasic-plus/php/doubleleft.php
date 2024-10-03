@@ -403,101 +403,101 @@ body {
       </li>
       <li>
         <div class="iocn-link">
-          <a href="#">
+          <a href="/network">
             <i class="bi bi-chat-left-dots"></i>
             <span class="link_name">Conversations</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
         <ul class="custom-sub-menu">
-          <li><a class="link_name" href="#">Conversations</a></li>
-          <li><a href="#">Inbox / Stream</a></li>
-          <li><a href="#">Direct Messages</a></li>
-          <li><a href="#">Starred Posts</a></li>
-          <li><a href="#">Personal Posts</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Polls</a></li>
+          <li><a class="link_name" href="/network">Conversations</a></li>
+          <li><a href="/network">Inbox / Stream</a></li>
+          <li><a href="/network/?f=&dm=1">Direct Messages</a></li>
+          <li><a href="/network/?f=&star=1">Starred Posts</a></li>
+          <li><a href="/network/?f=&conv=1">Personal Posts</a></li>
+          <li><a href="/network/?verb=%2EEvent">Events</a></li>
+          <li><a href="/network/?verb=%2EQuestion">Polls</a></li>
         </ul>
       </li>
 
       <li>
         <div class="iocn-link">
-          <a href="#">
+          <a href="/connections/active">
             <i class='bi bi-people' ></i>
             <span class="link_name">Contacts</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
         <ul class="custom-sub-menu">
-          <li><a class="link_name" href="#">Contacts</a></li>
-          <li><a href="#">Active Connections</a></li>
-          <li><a href="#">All Connections</a></li>
-          <li><a href="#">Connection Requests</a></li>
-          <li><a href="#">Directory</a></li>
+          <li><a class="link_name" href="/connections/active">Contacts</a></li>
+          <li><a href="/connections/active">Active Connections</a></li>
+          <li><a href="/connections">All Connections</a></li>
+          <li><a href="/connections/pending">Connection Requests</a></li>
+          <li><a href="/directory">Directory</a></li>
         </ul>
       </li>
 
       <li>
         <div class="iocn-link">
-          <a href="#">
+          <a href="/apps">
             <i class='bi bi-star' ></i>
             <span class="link_name">Featured Apps</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
         <ul class="custom-sub-menu">
-          <li><a class="link_name" href="#">Featured Apps</a></li>
+          <li><a class="link_name" href="/apps">Featured Apps</a></li>
           <li><a href="#">Channel</a></li>
           <li><a href="#">Directory</a></li>
           <li><a href="#">Help</a></li>
-          <li><a href="#">More Apps</a></li>
+          <li><a href="/apps">More Apps</a></li>
         </ul>
       </li>
 
       <li>
         <div class="iocn-link">
-          <a href="#">
+          <a href="/settings/channel">
             <i class='bi bi-gear' ></i>
             <span class="link_name">Settings</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
         <ul class="custom-sub-menu">
-          <li><a class="link_name" href="#">Settings</a></li>
-          <li><a href="#">Channel Settings</a></li>
-          <li><a href="#">Account Settings</a></li>
-          <li><a href="#">Privacy Settings</a></li>
-          <li><a href="#">Display Settings</a></li>
-          <li><a href="#">Manage Locations</a></li>
+          <li><a class="link_name" href="/settings/channel">Settings</a></li>
+          <li><a href="/settings/channel">Channel Settings</a></li>
+          <li><a href="/settings/account">Account Settings</a></li>
+          <li><a href="/settings/privacy">Privacy Settings</a></li>
+          <li><a href="/settings/display">Display Settings</a></li>
+          <li><a href="/locs">Manage Locations</a></li>
         </ul>
       </li>
 
       <li>
         <div class="iocn-link">
-          <a href="#">
+          <a href="/settings/channel_home">
             <i class='bi bi-sliders' ></i>
             <span class="link_name">Personalization</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>
         </div>
         <ul class="custom-sub-menu">
-          <li><a class="link_name" href="#">Personalization</a></li>
-          <li><a href="#">Channel Home</a></li>
-          <li><a href="#">Connections</a></li>
-          <li><a href="#">Stream</a></li>
-          <li><a href="#">Directory</a></li>
-          <li><a href="#">Calendar</a></li>
-          <li><a href="#">Photo</a></li>
+          <li><a class="link_name" href="/settings/channel_home">Personalization</a></li>
+          <li><a href="/settings/channel_home">Channel Home</a></li>
+          <li><a href="/settings/connections">Connections</a></li>
+          <li><a href="/settings/network">Stream</a></li>
+          <li><a href="/settings/directory">Directory</a></li>
+          <li><a href="/settings/calendar">Calendar</a></li>
+          <li><a href="/settings/photos">Photo</a></li>
         </ul>
       </li>      
 
       <li>
-        <a href="#">
+        <a href="/search">
           <i class='bi bi-search' ></i>
           <span class="link_name">Search</span>
         </a>
         <ul class="custom-sub-menu blank">
-          <li><a class="link_name" href="#">Search</a></li>
+          <li><a class="link_name" href="/search">Search</a></li>
         </ul>
       </li>
 <!--      

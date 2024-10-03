@@ -368,8 +368,9 @@ body {
         <i class='bi bi-person'></i>
           <span class="link_name">Profile</span>
         </a>
-        <ul class="custom-sub-menu blank">
+        <ul class="custom-sub-menu !blank">
           <li><a class="link_name" href="/profile/info">Profile</a></li>
+          <li><a href="/profile/info">Expat License</a></li>
         </ul>
       </li>
 

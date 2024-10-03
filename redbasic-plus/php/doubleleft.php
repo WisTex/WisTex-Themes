@@ -123,7 +123,7 @@ body {
     .sidebar .nav-links > li:before{
     position:absolute;
     left:0;
-    top:60px;
+    /* top:60px; */
     content:'';
     width:4px;
     height:100%;

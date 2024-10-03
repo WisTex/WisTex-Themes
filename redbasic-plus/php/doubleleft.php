@@ -353,7 +353,7 @@ body {
       <span class="logo_name">Hubzilla</span>
     </div>
     <ul class="nav-links">
-        
+<!--        
     <li>
         <a href="/">
           <i class='bx bx-home' ></i>
@@ -363,7 +363,7 @@ body {
           <li><a class="link_name" href="/home">Home</a></li>
         </ul>
       </li>
-
+-->
     <li>
         <a href="/hq">
           <i class='bi bi-person-circle' ></i>

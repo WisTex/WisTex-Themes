@@ -387,7 +387,7 @@ body {
         <div class="iocn-link">
           <a href="/channel/info">
             <!-- <i class='bx bx-collection' ></i> -->
-            <i class='bi bi-house'></i>
+            <i class='bi bi-person-vcard'></i>
             <span class="link_name">Channel</span>
           </a>
           <i class='bx bxs-chevron-down arrow' ></i>

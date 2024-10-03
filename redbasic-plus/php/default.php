@@ -366,7 +366,7 @@ body {
 
       <li>
         <a href="/profile/info">
-        <i class='bi bi-person'></i>
+        <i class='bi bi-person-vcard'></i>
           <span class="link_name">Profile</span>
         </a>
         <ul class="custom-sub-menu !blank">

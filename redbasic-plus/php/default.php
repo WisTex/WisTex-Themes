@@ -360,6 +360,7 @@ body {
         </a>
         <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="/channel/info">Posts</a></li>
+          <li><a href="/channel/info">Expat License</a></li>
         </ul>
       </li>
 
@@ -381,7 +382,7 @@ body {
         </a>
         <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="/photos/info">Photos</a></li>
-          <li><a href="/profile/info">Expat License</a></li>
+          <li><a href="/photos/info">Expat License</a></li>
         </ul>
       </li>      
 
@@ -392,7 +393,7 @@ body {
         </a>
         <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="/cloud/info">Files</a></li>
-          <li><a href="/profile/info">Expat License</a></li>
+          <li><a href="/cloud/info">Expat License</a></li>
         </ul>
       </li>      
 
@@ -403,7 +404,7 @@ body {
         </a>
         <ul class="custom-sub-menu blank">
           <li><a class="link_name" href="/cal/info">Calendar</a></li>
-          <li><a href="/profile/info">Expat License</a></li>
+          <li><a href="/calendar/info">Expat License</a></li>
         </ul>
       </li>      
 

@@ -352,15 +352,57 @@ body {
       <span class="logo_name">Hubzilla</span>
     </div>
     <ul class="nav-links">
+
     <li>
-        <a href="/">
+        <a href="/channel/info">
           <i class='bx bx-home' ></i>
-          <span class="link_name">Home</span>
+          <span class="link_name">Posts</span>
         </a>
         <ul class="custom-sub-menu blank">
-          <li><a class="link_name" href="#">Home</a></li>
+          <li><a class="link_name" href="/channel/info">Posts</a></li>
         </ul>
       </li>
+
+      <li>
+        <a href="/profile/info">
+          <i class='bx bx-home' ></i>
+          <span class="link_name">Profile</span>
+        </a>
+        <ul class="custom-sub-menu blank">
+          <li><a class="link_name" href="/profile/info">Profile</a></li>
+        </ul>
+      </li>
+
+      <li>
+        <a href="/photos/info">
+          <i class='bx bx-home' ></i>
+          <span class="link_name">Photos</span>
+        </a>
+        <ul class="custom-sub-menu blank">
+          <li><a class="link_name" href="/photos/info">Photos</a></li>
+        </ul>
+      </li>      
+
+      <li>
+        <a href="/cloud/info">
+          <i class='bx bx-home' ></i>
+          <span class="link_name">Files</span>
+        </a>
+        <ul class="custom-sub-menu blank">
+          <li><a class="link_name" href="/cloud/info">Files</a></li>
+        </ul>
+      </li>      
+
+      <li>
+        <a href="/cal/info">
+          <i class='bx bx-home' ></i>
+          <span class="link_name">Calendar</span>
+        </a>
+        <ul class="custom-sub-menu blank">
+          <li><a class="link_name" href="/cal/info">Calendar</a></li>
+        </ul>
+      </li>      
+
     <li>
         <a href="/hq">
           <i class='bx bxs-castle' ></i>
@@ -370,6 +412,8 @@ body {
           <li><a class="link_name" href="#">Headquarters (HQ)</a></li>
         </ul>
       </li>
+
+<!--      
       <li class="active">
         <div class="iocn-link">
           <a href="#">
@@ -460,6 +504,8 @@ body {
           <li><a class="link_name" href="#">Setting</a></li>
         </ul>
       </li>
+-->
+
       <li>
     <div class="profile-details">
       <div class="profile-content">

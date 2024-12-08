@@ -7,6 +7,41 @@
 
 /* custom */
 
+/* Start styles used with custom page addon */
+:root, [data-bs-theme=light] {
+    --tblr-body-bg: rgb(243, 240, 247) !important;
+    --tblr-font-sans-serif: 'Inter Var', -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif !important;
+    --tblr-font-weight-bold: 700 !important;
+    --tblr-primary-rgb: 137, 93, 227 !important;
+    --bs-primary: #ab8aeb !important;
+    --tblr-icon-color: #956fc5 !important;
+    --bs-link-color: #3075db !important;
+}
+
+:root, [data-bs-theme=dark] {
+    --tblr-body-bg: #151f2c;
+    --tblr-font-sans-serif: 'Inter Var', -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif !important;
+    --tblr-font-weight-bold: 700 !important;
+    --tblr-primary-rgb: 107, 56, 209;
+    --bs-primary: #8155d9;
+    --tblr-icon-color: var(--tblr-gray-500);
+    --bs-link-color: #6ea8fe;
+}
+/* End styles used with custom page addon */
+
+@media (min-width: 1200px) {
+    .container-xl, .container {
+      /* max-width: 1140px; */
+      max-width: 1380px;
+    }
+  }
+@media (min-width: 1400px) {
+     .container-xl, .container {
+      /* max-width: 1320px; */
+      max-width: 1440px;
+    }
+  }
+
 .neuhub-placeholder {
 	/* example */
 	color:maroon;
@@ -21,6 +56,7 @@ footer {
     border: 0px solid var(--bs-border-color);
     border-radius: var(--bs-border-radius);
     margin-bottom: 1.5rem;
+    font-size: 1rem;
 }
 
 .thread-wrapper {
@@ -67,3 +103,30 @@ footer {
     padding-bottom: 0px;
     padding-left: 7px;
 }
+
+.hq_controls_fixed_bottom_center {
+    margin-bottom: 5rem !important;
+}
+
+.dropdown-toggle::after {
+    border-bottom: 0 !important;
+    border-left: .3em solid transparent !important;
+    transform: none !important;
+}
+
+#pdledit_gui_offcanvas_edit_body.offcanvas-body {
+    padding-bottom: 0;
+}
+
+input[type=text], textarea {
+	resize: vertical;
+	background-color: var(--tblr-bg-forms);
+	color: var(--tblr-body-color);
+}
+
+@media screen and (max-width: 431px) {
+    body {
+        padding-bottom: 3rem !important;
+        height: auto !important;
+    }
+  }

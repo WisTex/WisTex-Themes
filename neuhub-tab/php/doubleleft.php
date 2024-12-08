@@ -153,7 +153,6 @@ if (file_exists($filename)) {
         --tblr-link-color: green; /* mostly used for toggle switches */
         --bs-link-hover-color: #0a58ca;
         --bs-warning: #f59f00;
-        /*
         --tblr-font-size-h1: 2rem;
     --tblr-font-size-h2: 1.75rem;
     --tblr-line-height-h2: 1.75rem;
@@ -165,7 +164,6 @@ if (file_exists($filename)) {
     --tblr-line-height-h5: 1rem;
     --tblr-font-size-h6: 0.75rem;
     --tblr-line-height-h6: 0.75rem;
-    */
         
       }
       body {
@@ -253,7 +251,7 @@ if (file_exists($filename)) {
       
     </style>
   </head>
-  <body>
+  <body >
     <?php /* Moved to theme_init.php <script src="/view/theme/neuhub-tabler/dist/js/demo-theme.min.js?1685973381"></script> */ ?>
     <script src="/view/theme/neuhub-tab/dist/js/demo-theme.min.js?1685973381"></script>
     <div class="page">
@@ -316,55 +314,16 @@ if (file_exists($filename)) {
 
               </div>
 
-              <div class="col-lg-8 col-xl-9">
+              <div class="col-lg-8">
 
 
                 <div id="region_2"><?php if(x($page,'content')) echo $page['content']; ?></div>
+            
+                <?php echo (App::$module == "admin" && argv(1) == "queue") ? "</div>" : ""; ?>    
+
                 
-                <?php echo (App::$module == "search") ? ((!isset(App::$data['search'])) ? "</div>" : "") : ""; ?>
-
-                <!--
-                <div class="card !card-lg">
-                    <div class="card-body">
-                    
-                    </div>
-                </div>
-                -->
-
-                <!--
-                <div class="card card-lg">
-                  <div class="card-body">
-                    <div class="markdown">
-                      <p>This is a legal agreement between you, the Purchaser, and Tabler. Purchasing or downloading of any Tabler product (Tabler Free, Tabler PRO, Tabler Email), constitutes your acceptance of the terms of this license, <a href="https://tabler.io/terms-of-service.html">Tabler terms of service</a> and <a href="https://tabler.io/privacy-policy.html">Tabler private policy</a>.</p>
-                      <p>A license grants you a non-exclusive and non-transferable right to use and incorporate the item in your personal or commercial projects.</p>
-                      <h3 id="tabler-free-license">Tabler Free License</h3>
-                      <p>Tabler Free is available under MIT License</p>
-                      <p>Copyright 2023 Tabler</p>
-                      <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
-                      <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
-                      <p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
-                      <h3 id="tabler-pro-and-tabler-email-license">Tabler PRO and Tabler Email License</h3>
-                      <p>After Purchasing you are granted the use products under the conditions featured belowed.</p>
-                      <p>Rights</p>
-                      <ol>
-                        <li>You have rights to use our resources for any or all of your personal and commercial projects.</li>
-                        <li>You may modify the resources according to your requirements.</li>
-                        <li>You are not required to attribute or link to Tabler in any of your projects.</li>
-                      </ol>
-                      <p>Restrictions</p>
-                      <ol>
-                        <li>You do not have the rights to redistribute, resell, lease, license, sub-license or offer the file downloaded to any third party.</li>
-                        <li>For any resalable web applications or software programs, you cannot include our graphic resources as an additional attachment.</li>
-                        <li>You cannot redistribute any of the software, or products created with Tabler paid  products.</li>
-                        <li>You cannot add our source code to any open source repository.</li>
-                        <li>The source code may not be placed on any website in a complete or archived downloadable format.</li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
-    -->
               </div>
-              <div class="col-lg-4 col-xl-3">
+              <div class="col-lg-4">
 
               <div id="left_aside_wrapper"><?php if(x($page,'aside')) echo $page['aside']; ?></div>
               <div id="right_aside_wrapper"><?php if(x($page,'right_aside')) echo $page['right_aside']; ?></div>
@@ -372,47 +331,6 @@ if (file_exists($filename)) {
 
 
                 <p></p>
-
-                <?php /*
-                <div class="card mb-3">
-                  <!--
-                  <div class="card-header">
-                    <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
-                  </div>
-                  -->
-                  
-                  <div class="card-body">
-                    <small>
-                      <!-- <a href="<?php echo $HomeURL; ?>"><b>Digital Authorship</b></a> -->This website is part of a decentralized social network powered by Hubzilla and Neuhub.
-                      <!-- <a href="https://github.com/WisTex/Raconteur" target="_blank">Raconteur</a>. -->
-                    </small>
-                  </div>
-                </div>
-                */ ?>
-
-                <?php /*
-                <div class="card mb-3">
-                  <!--
-                  <div class="card-header">
-                    <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
-                  </div>
-                  -->
-                  <div class="card-body">
-                    <h3 class="card-title">Follow Scott M. Stolz</h3>
-                  <p>Follow me on Hubzilla or via ActivityPub
-                    <br>scott@completehostingguide.com
-                  </p>
-                  <p>Follow me on Mastodon
-                    <br>@scott@completehostingguide.com
-                  </p>
-                  <!--
-                  <p>Follow me on Bluesky
-                    <br>@scott.completehostingguide.com
-                  </p>
-                  -->
-                </div>
-                </div>
-                */ ?>
 
 
 

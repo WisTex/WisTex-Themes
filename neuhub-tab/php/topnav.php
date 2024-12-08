@@ -1,15 +1,3 @@
-<?php
-/**
- *   * Name: default
- *   * Description: Neuhub default 2-column layout
- *   * Version: 0.1
- *   * Author: WisTex TechSero Ltd. Co.
- *   * Maintainer: WisTex TechSero Ltd. Co.
- *   * ContentRegion: aside, left_aside_wrapper
- *   * ContentRegion: content, region_2
- *   * ContentRegion: right_aside, right_aside_wrapper
- */
-?>
 <!doctype html>
 <!--
 * Neuhub Tab Theme for Hubzilla
@@ -49,6 +37,7 @@ if (file_exists($filename)) {
 }
 ?>
 
+
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
@@ -59,7 +48,8 @@ if (file_exists($filename)) {
     <script>var baseurl="<?php echo z_root() ?>";</script>
     <?php if(x($page,'htmlhead')) echo $page['htmlhead'] ?>
 
-<!--
+
+    <!--
     <script defer data-api="/stats/api/event" data-domain="preview.tabler.io" src="/stats/js/script.js"></script>
     <meta name="msapplication-TileColor" content=""/>
     <meta name="theme-color" content=""/>
@@ -86,7 +76,6 @@ if (file_exists($filename)) {
     <meta property="og:url" content="https://preview.tabler.io/static/og.png">
     <meta property="og:description" content="Tabler comes with tons of well-designed components and features. Start your adventure with Tabler and make your dashboard great again. For free!">
 -->
-
     <!-- CSS files -->
 
     <link rel="stylesheet" href="/view/theme/neuhub-tab/assets/fonts/fontawesome-all.min.css?v=7.8.7" type="text/css" media="screen">
@@ -118,8 +107,8 @@ if (file_exists($filename)) {
     // ! Assumes you have uploaded both the main CSS and the CSS for the sections.
     $filename = '/custom/css/codestitch.css';
     if (file_exists($filename)) { ?>
-        <!--<link href="/custom/css/codestitch.css?1685973381" rel="stylesheet"/>
-        <link href="/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>-->
+        <!-- <link href="/custom/css/codestitch.css?1685973381" rel="stylesheet"/> -->
+        <link href="/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
     <?php
     } else {
         //// echo "The file $filename does not exist";
@@ -134,8 +123,8 @@ if (file_exists($filename)) {
         <link href="/view/theme/neuhub-tab/custom/css/codestitch.css?1685973381" rel="stylesheet"/>
         <link href="/view/theme/neuhub-tab/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
   -->
-        <!--<link href="/view/theme/neuhub-tab/css/codestitch.css?1685973381" rel="stylesheet"/>
-        <link href="/view/theme/neuhub-tab/css/codestitch-sections.css?1685973381" rel="stylesheet"/>-->
+        <!-- <link href="/view/theme/neuhub-tab/css/codestitch.css?1685973381" rel="stylesheet"/> -->
+        <!-- <link href="/view/theme/neuhub-tab/css/codestitch-sections.css?1685973381" rel="stylesheet"/> -->
 
     <style>
       /* @import url('/view/theme/neuhub-tab/assets/fonts/inter/inter.css'); */
@@ -153,7 +142,6 @@ if (file_exists($filename)) {
         --tblr-link-color: green; /* mostly used for toggle switches */
         --bs-link-hover-color: #0a58ca;
         --bs-warning: #f59f00;
-        /*
         --tblr-font-size-h1: 2rem;
     --tblr-font-size-h2: 1.75rem;
     --tblr-line-height-h2: 1.75rem;
@@ -165,7 +153,6 @@ if (file_exists($filename)) {
     --tblr-line-height-h5: 1rem;
     --tblr-font-size-h6: 0.75rem;
     --tblr-line-height-h6: 0.75rem;
-    */
         
       }
       body {
@@ -218,7 +205,7 @@ if (file_exists($filename)) {
       }
 
       input[type=text], textarea {
-        /*background-color: #FFFFFF;*/
+        background-color: #FFFFFF;
       }
 
       .onoffswitch.checkbox > div label {
@@ -236,31 +223,16 @@ if (file_exists($filename)) {
         background-color: var(--bs-tertiary-bg);
       }
 
-      /* For the Extra Theme Variables Addon */
-      .field_id_custom_var_value {
-        /* allow the text area to expand vertically in size with a horizontal scrollbar if pre-existing content is added to the box before rendering. Remove this if you want a pre-set height. Use "em" to match the font size set in the website. */
-        height: auto;
-        /* Use "em" to define the height based on the text size set in your website and the text rows in the box, not a static pixel value. */
-        min-height: 25em !important;
-        cursor: text;
-        /* Some textareas have a light gray background by default anyway. */
-        
-        /* Overflow "auto" allows the box to start with no scrollbars but add them as content fills the box. */
-        overflow: auto;
-        /* Resize creates a tab in the lower right corner of textarea for most modern browsers and allows users to resize the box manually. Note: Resize isn't supported by most older agents and IE. */
-        resize: both;
-      }
-      
     </style>
   </head>
-  <body>
+  <body class="layout-fluid">
     <?php /* Moved to theme_init.php <script src="/view/theme/neuhub-tabler/dist/js/demo-theme.min.js?1685973381"></script> */ ?>
     <script src="/view/theme/neuhub-tab/dist/js/demo-theme.min.js?1685973381"></script>
     <div class="page">
 
                 <!-- Main Site Navigation -->
                 <?php if(x($page,'nav')) echo $page['nav']; ?>
-        
+
       <div class="page-wrapper">
 
 
@@ -303,124 +275,16 @@ if (file_exists($filename)) {
         </div>
         */ ?>
         <!-- Page body -->
-        <div class="page-body">
+        <div class="page-body mt-0">
           <div class="container-xl">
-            <div class="row row-cards">
-              <div class="col-lg-12">
-
-                <!-- Site Breadcrumbs -->
-                <?php if(x($page,'breadcrumb')) echo $page['breadcrumb'] ?>   
-
-                <!-- Widgets Above Content -->
-                <?php if(x($page,'top_area')) echo $page['top_area']; ?>
-
-              </div>
-
-              <div class="col-lg-8 col-xl-9">
+            
+            <?php if(x($page,'breadcrumb')) echo $page['breadcrumb'] ?>   
+            <?php if(x($page,'top_area')) echo $page['top_area']; ?>
+            <?php if(x($page,'content')) echo $page['content']; ?>  
 
 
-                <div id="region_2"><?php if(x($page,'content')) echo $page['content']; ?></div>
-                
-                <?php echo (App::$module == "search") ? ((!isset(App::$data['search'])) ? "</div>" : "") : ""; ?>
-
-                <!--
-                <div class="card !card-lg">
-                    <div class="card-body">
-                    
-                    </div>
-                </div>
-                -->
-
-                <!--
-                <div class="card card-lg">
-                  <div class="card-body">
-                    <div class="markdown">
-                      <p>This is a legal agreement between you, the Purchaser, and Tabler. Purchasing or downloading of any Tabler product (Tabler Free, Tabler PRO, Tabler Email), constitutes your acceptance of the terms of this license, <a href="https://tabler.io/terms-of-service.html">Tabler terms of service</a> and <a href="https://tabler.io/privacy-policy.html">Tabler private policy</a>.</p>
-                      <p>A license grants you a non-exclusive and non-transferable right to use and incorporate the item in your personal or commercial projects.</p>
-                      <h3 id="tabler-free-license">Tabler Free License</h3>
-                      <p>Tabler Free is available under MIT License</p>
-                      <p>Copyright 2023 Tabler</p>
-                      <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
-                      <p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
-                      <p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
-                      <h3 id="tabler-pro-and-tabler-email-license">Tabler PRO and Tabler Email License</h3>
-                      <p>After Purchasing you are granted the use products under the conditions featured belowed.</p>
-                      <p>Rights</p>
-                      <ol>
-                        <li>You have rights to use our resources for any or all of your personal and commercial projects.</li>
-                        <li>You may modify the resources according to your requirements.</li>
-                        <li>You are not required to attribute or link to Tabler in any of your projects.</li>
-                      </ol>
-                      <p>Restrictions</p>
-                      <ol>
-                        <li>You do not have the rights to redistribute, resell, lease, license, sub-license or offer the file downloaded to any third party.</li>
-                        <li>For any resalable web applications or software programs, you cannot include our graphic resources as an additional attachment.</li>
-                        <li>You cannot redistribute any of the software, or products created with Tabler paid  products.</li>
-                        <li>You cannot add our source code to any open source repository.</li>
-                        <li>The source code may not be placed on any website in a complete or archived downloadable format.</li>
-                      </ol>
-                    </div>
-                  </div>
-                </div>
-    -->
-              </div>
-              <div class="col-lg-4 col-xl-3">
-
-              <div id="left_aside_wrapper"><?php if(x($page,'aside')) echo $page['aside']; ?></div>
-              <div id="right_aside_wrapper"><?php if(x($page,'right_aside')) echo $page['right_aside']; ?></div>
-
-
-
-                <p></p>
-
-                <?php /*
-                <div class="card mb-3">
-                  <!--
-                  <div class="card-header">
-                    <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
-                  </div>
-                  -->
-                  
-                  <div class="card-body">
-                    <small>
-                      <!-- <a href="<?php echo $HomeURL; ?>"><b>Digital Authorship</b></a> -->This website is part of a decentralized social network powered by Hubzilla and Neuhub.
-                      <!-- <a href="https://github.com/WisTex/Raconteur" target="_blank">Raconteur</a>. -->
-                    </small>
-                  </div>
-                </div>
-                */ ?>
-
-                <?php /*
-                <div class="card mb-3">
-                  <!--
-                  <div class="card-header">
-                    <h3 class="card-title">Card title <span class="card-subtitle">Subtitle</span></h3>
-                  </div>
-                  -->
-                  <div class="card-body">
-                    <h3 class="card-title">Follow Scott M. Stolz</h3>
-                  <p>Follow me on Hubzilla or via ActivityPub
-                    <br>scott@completehostingguide.com
-                  </p>
-                  <p>Follow me on Mastodon
-                    <br>@scott@completehostingguide.com
-                  </p>
-                  <!--
-                  <p>Follow me on Bluesky
-                    <br>@scott.completehostingguide.com
-                  </p>
-                  -->
-                </div>
-                </div>
-                */ ?>
-
-
-
-              </div>
-            </div>
           </div>
         </div>
-
         <footer class="footer footer-transparent d-print-none">
           <div class="container-xl">
             <div class="row text-center align-items-center flex-row-reverse">
@@ -521,37 +385,28 @@ if (file_exists($filename)) {
                       </span>
                     </a>
 
-                    <div class="notifications-icon-mobile-off" style="display:none">
-                      <a href="/hq" class="bloc-icon">
-                        <span class="bg-dark-lt text-muted avatar"><!-- Download SVG icon from http://tabler-icons.io/i/user -->
+                    <a href="/notifications" class="bloc-icon">
+                      <span class="bg-dark-lt text-muted avatar"><!-- Download SVG icon from http://tabler-icons.io/i/user -->
 
-                          <!-- if there are no notifications -->
-
-                          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
-                            <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
-                          </svg>  
-
-                        </span>
-                      </a>
-                    </div>
-                    <div class="notifications-icon-mobile-on" style="display:none">
-                      <a href="/hq" class="bloc-icon">
-                        <span class="bg-dark-lt text-muted avatar"><!-- Download SVG icon from http://tabler-icons.io/i/user -->
-
-                          <!-- if there are notifications -->
-                          
-                          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bell-filled" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M14.235 19c.865 0 1.322 1.024 .745 1.668a3.992 3.992 0 0 1 -2.98 1.332a3.992 3.992 0 0 1 -2.98 -1.332c-.552 -.616 -.158 -1.579 .634 -1.661l.11 -.006h4.471z" stroke-width="0" fill="currentColor" />
-                            <path d="M12 2c1.358 0 2.506 .903 2.875 2.141l.046 .171l.008 .043a8.013 8.013 0 0 1 4.024 6.069l.028 .287l.019 .289v2.931l.021 .136a3 3 0 0 0 1.143 1.847l.167 .117l.162 .099c.86 .487 .56 1.766 -.377 1.864l-.116 .006h-16c-1.028 0 -1.387 -1.364 -.493 -1.87a3 3 0 0 0 1.472 -2.063l.021 -.143l.001 -2.97a8 8 0 0 1 3.821 -6.454l.248 -.146l.01 -.043a3.003 3.003 0 0 1 2.562 -2.29l.182 -.017l.176 -.004z" stroke-width="0" fill="currentColor" />
-                          </svg>
-                          <span class="badge bg-red" style="display:inline-block;margin-bottom:30px"></span>
+                        <!-- if there are notifications -->
                         
-                        </span>
-                      </a>
-                    </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bell-filled" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                          <path d="M14.235 19c.865 0 1.322 1.024 .745 1.668a3.992 3.992 0 0 1 -2.98 1.332a3.992 3.992 0 0 1 -2.98 -1.332c-.552 -.616 -.158 -1.579 .634 -1.661l.11 -.006h4.471z" stroke-width="0" fill="currentColor" />
+                          <path d="M12 2c1.358 0 2.506 .903 2.875 2.141l.046 .171l.008 .043a8.013 8.013 0 0 1 4.024 6.069l.028 .287l.019 .289v2.931l.021 .136a3 3 0 0 0 1.143 1.847l.167 .117l.162 .099c.86 .487 .56 1.766 -.377 1.864l-.116 .006h-16c-1.028 0 -1.387 -1.364 -.493 -1.87a3 3 0 0 0 1.472 -2.063l.021 -.143l.001 -2.97a8 8 0 0 1 3.821 -6.454l.248 -.146l.01 -.043a3.003 3.003 0 0 1 2.562 -2.29l.182 -.017l.176 -.004z" stroke-width="0" fill="currentColor" />
+                        </svg>
+                        
+
+                        <!-- if there are no notifications -->
+                        <!--
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bell" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                          <path d="M10 5a2 2 0 1 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" />
+                          <path d="M9 17v1a3 3 0 0 0 6 0v-1" />
+                        </svg>
+                        -->
+                      </span>
+                    </a>
                     <a href="/settings" class="bloc-icon">
                       <span class="bg-dark-lt text-muted avatar"><!-- Download SVG icon from http://tabler-icons.io/i/user -->
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-settings" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -565,6 +420,9 @@ if (file_exists($filename)) {
 
         </footer>
 
+
+
+     
       </div>
     </div>
     <!-- Libs JS -->

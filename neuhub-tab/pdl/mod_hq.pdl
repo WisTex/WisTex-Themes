@@ -1,5 +1,3 @@
-[region=nav]$nav[/region]
-
 [region=aside]
 [widget=notifications][/widget]
 [widget=messages][/widget]

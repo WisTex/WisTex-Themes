@@ -48,35 +48,35 @@ if (file_exists($filename)) {
     <script>var baseurl="<?php echo z_root() ?>";</script>
     <?php if(x($page,'htmlhead')) echo $page['htmlhead'] ?>
 
-<?php /*
-    <!--
-    <script defer data-api="/stats/api/event" data-domain="preview.tabler.io" src="/stats/js/script.js"></script>
-    <meta name="msapplication-TileColor" content=""/>
-    <meta name="theme-color" content=""/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="mobile-web-app-capable" content="yes"/>
-    <meta name="HandheldFriendly" content="True"/>
-    <meta name="MobileOptimized" content="320"/>
-    <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
-    <meta name="description" content="Tabler comes with tons of well-designed components and features. Start your adventure with Tabler and make your dashboard great again. For free!"/>
-    <meta name="canonical" content="https://preview.tabler.io/layout-combo.html">
-    <meta name="twitter:image:src" content="https://preview.tabler.io/static/og.png">
-    <meta name="twitter:site" content="@tabler_ui">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Tabler: Premium and Open Source dashboard template with responsive and high quality UI.">
-    <meta name="twitter:description" content="Tabler comes with tons of well-designed components and features. Start your adventure with Tabler and make your dashboard great again. For free!">
-    <meta property="og:image" content="https://preview.tabler.io/static/og.png">
-    <meta property="og:image:width" content="1280">
-    <meta property="og:image:height" content="640">
-    <meta property="og:site_name" content="Tabler">
-    <meta property="og:type" content="object">
-    <meta property="og:title" content="Tabler: Premium and Open Source dashboard template with responsive and high quality UI.">
-    <meta property="og:url" content="https://preview.tabler.io/static/og.png">
-    <meta property="og:description" content="Tabler comes with tons of well-designed components and features. Start your adventure with Tabler and make your dashboard great again. For free!">
--->
-*/ ?>
+    <?php /*
+        <!--
+        <script defer data-api="/stats/api/event" data-domain="preview.tabler.io" src="/stats/js/script.js"></script>
+        <meta name="msapplication-TileColor" content=""/>
+        <meta name="theme-color" content=""/>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="mobile-web-app-capable" content="yes"/>
+        <meta name="HandheldFriendly" content="True"/>
+        <meta name="MobileOptimized" content="320"/>
+        <link rel="icon" href="./favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>
+        <meta name="description" content="Tabler comes with tons of well-designed components and features. Start your adventure with Tabler and make your dashboard great again. For free!"/>
+        <meta name="canonical" content="https://preview.tabler.io/layout-combo.html">
+        <meta name="twitter:image:src" content="https://preview.tabler.io/static/og.png">
+        <meta name="twitter:site" content="@tabler_ui">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Tabler: Premium and Open Source dashboard template with responsive and high quality UI.">
+        <meta name="twitter:description" content="Tabler comes with tons of well-designed components and features. Start your adventure with Tabler and make your dashboard great again. For free!">
+        <meta property="og:image" content="https://preview.tabler.io/static/og.png">
+        <meta property="og:image:width" content="1280">
+        <meta property="og:image:height" content="640">
+        <meta property="og:site_name" content="Tabler">
+        <meta property="og:type" content="object">
+        <meta property="og:title" content="Tabler: Premium and Open Source dashboard template with responsive and high quality UI.">
+        <meta property="og:url" content="https://preview.tabler.io/static/og.png">
+        <meta property="og:description" content="Tabler comes with tons of well-designed components and features. Start your adventure with Tabler and make your dashboard great again. For free!">
+    -->
+    */ ?>
     <!-- CSS files -->
 
     <link rel="stylesheet" href="/view/theme/neuhub-tab/assets/fonts/fontawesome-all.min.css?v=7.8.7" type="text/css" media="screen">
@@ -108,7 +108,7 @@ if (file_exists($filename)) {
     // ! Assumes you have uploaded both the main CSS and the CSS for the sections.
     $filename = '/custom/css/codestitch.css';
     if (file_exists($filename)) { ?>
-        <link href="/custom/css/codestitch.css?1685973381" rel="stylesheet"/>
+        <!-- <link href="/custom/css/codestitch.css?1685973381" rel="stylesheet"/> ==>
         <link href="/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
     <?php
     } else {
@@ -124,8 +124,8 @@ if (file_exists($filename)) {
         <link href="/view/theme/neuhub-tab/custom/css/codestitch.css?1685973381" rel="stylesheet"/>
         <link href="/view/theme/neuhub-tab/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
   -->
-        <link href="/view/theme/neuhub-tab/css/codestitch.css?1685973381" rel="stylesheet"/>
-        <link href="/view/theme/neuhub-tab/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
+        <!-- <link href="/view/theme/neuhub-tab/css/codestitch.css?1685973381" rel="stylesheet"/> -->
+        <!-- <link href="/view/theme/neuhub-tab/css/codestitch-sections.css?1685973381" rel="stylesheet"/> -->
 
     <style>
       /* @import url('/view/theme/neuhub-tab/assets/fonts/inter/inter.css'); */
@@ -144,85 +144,85 @@ if (file_exists($filename)) {
         --bs-link-hover-color: #0a58ca;
         --bs-warning: #f59f00;
         --tblr-font-size-h1: 2rem;
-    --tblr-font-size-h2: 1.75rem;
-    --tblr-line-height-h2: 1.75rem;
-    --tblr-font-size-h3: 1.5rem;
-    --tblr-line-height-h3: 1.5rem;
-    --tblr-font-size-h4: 1.25rem;
-    --tblr-line-height-h4: 1.25rem;
-    --tblr-font-size-h5: 1rem;
-    --tblr-line-height-h5: 1rem;
-    --tblr-font-size-h6: 0.75rem;
-    --tblr-line-height-h6: 0.75rem;
+        --tblr-font-size-h2: 1.75rem;
+        --tblr-line-height-h2: 1.75rem;
+        --tblr-font-size-h3: 1.5rem;
+        --tblr-line-height-h3: 1.5rem;
+        --tblr-font-size-h4: 1.25rem;
+        --tblr-line-height-h4: 1.25rem;
+        --tblr-font-size-h5: 1rem;
+        --tblr-line-height-h5: 1rem;
+        --tblr-font-size-h6: 0.75rem;
+        --tblr-line-height-h6: 0.75rem;
         
-      }
-      body {
-      	font-feature-settings: "cv03", "cv04", "cv11";
-      }
-      .wall-item-content-wrapper {
-        background: var(--tblr-card-color);
-      }
-      .section-subtitle-wrapper {
-        background: rgba(72, 110, 149, 0.14); /* had to pick a color that shows up on light and dark modes */
-      }
-      .wall-item-title {
-        background: rgba(72, 110, 149, 0.14); /* had to pick a color that shows up on light and dark modes */
-      }
-.wall-item-title.h3 {
-    font-size: 1.25rem;
-}
-.profile-cover-text.h3 {
-  font-size: 1.25rem;
-}
-      .btn-group-sm>.btn, .btn-sm {
-        --bs-btn-padding-y: 0.3rem;
-        --bs-btn-padding-x: 0.5rem;
-        --bs-btn-font-size: 0.8rem;
-        --tblr-btn-padding-y: 0.3rem;
-        --tblr-btn-padding-x: 0.5rem;
-        --tblr-btn-font-size: 0.8rem;    
-        --tblr-btn-icon-size: 0.9rem;
-        --tblr-btn-line-height: 1;
-      }
-      .dropdown-menu {
-    --tblr-dropdown-min-width: 15rem;
-      }
-      .avatar {
-        --tblr-avatar-box-shadow: none;
-      }
-      .avatar-xl {
-        --tblr-avatar-size: 80px;
-      }
+          }
+          body {
+            font-feature-settings: "cv03", "cv04", "cv11";
+          }
+          .wall-item-content-wrapper {
+            background: var(--tblr-card-color);
+          }
+          .section-subtitle-wrapper {
+            background: rgba(72, 110, 149, 0.14); /* had to pick a color that shows up on light and dark modes */
+          }
+          .wall-item-title {
+            background: rgba(72, 110, 149, 0.14); /* had to pick a color that shows up on light and dark modes */
+          }
+          .wall-item-title.h3 {
+                font-size: 1.25rem;
+            }
+            .profile-cover-text.h3 {
+              font-size: 1.25rem;
+            }
+          .btn-group-sm>.btn, .btn-sm {
+            --bs-btn-padding-y: 0.3rem;
+            --bs-btn-padding-x: 0.5rem;
+            --bs-btn-font-size: 0.8rem;
+            --tblr-btn-padding-y: 0.3rem;
+            --tblr-btn-padding-x: 0.5rem;
+            --tblr-btn-font-size: 0.8rem;    
+            --tblr-btn-icon-size: 0.9rem;
+            --tblr-btn-line-height: 1;
+          }
+          .dropdown-menu {
+        --tblr-dropdown-min-width: 15rem;
+          }
+          .avatar {
+            --tblr-avatar-box-shadow: none;
+          }
+          .avatar-xl {
+            --tblr-avatar-size: 80px;
+          }
 
-      dl, ol, ul {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-      }
+          dl, ol, ul {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+          }
 
-      .thread-wrapper {
-        /* background: rgba(72, 110, 149, 0.14); */
-        background: #f9f9f9;
-        /* background: var(--tblr-active-bg); */
-      }
+          .thread-wrapper {
+            /* background: rgba(72, 110, 149, 0.14); */
+            background: #f9f9f9;
+            /* background: var(--tblr-active-bg); */
+          }
 
-      input[type=text], textarea {
-        background-color: #FFFFFF;
-      }
+          input[type=text], textarea {
+            background-color: #FFFFFF;
+          }
 
-      .onoffswitch.checkbox > div label {
-        border: 1px solid #0c5460;
-        
-      }
+          .onoffswitch.checkbox > div label {
+            border: 1px solid #0c5460;
+            
+          }
 
-      .onoffswitch-switch {
-        background: #800000;
-        color: #800000;
-      }
+          .onoffswitch-switch {
+            background: #800000;
+            color: #800000;
+          }
 
-      .textcomplete-item.active {
-        color: #000000;
-        background-color: var(--bs-tertiary-bg);
-      }
+          .textcomplete-item.active {
+            color: #000000;
+            background-color: var(--bs-tertiary-bg);
+          }
 
     </style>
   </head>
@@ -284,78 +284,78 @@ if (file_exists($filename)) {
             <?php if(x($page,'content')) echo $page['content']; ?>  
 
           </div>
-        </div>
+        </div> <!-- page body -->
         <div class="page-body">
-        <div class="container-xl">
-        <footer class="footer footer-transparent d-print-none">
           <div class="container-xl">
-            <div class="row text-center align-items-center flex-row-reverse">
-              <div class="col-lg-auto ms-lg-auto">
-                <ul class="list-inline list-inline-dots mb-0">
-                  <li class="list-inline-item"><a href="<?php echo $HomeURL; ?>" class="link-secondary"><?php echo $HomeURLName; ?></a></li>
-                  <li class="list-inline-item"><a href="<?php echo $DirectoryURL; ?>" class="link-secondary"><?php echo $DirectoryURLName; ?></a></li>
-                  
-                  <li class="list-inline-item"><a href="<?php echo $TermsURL; ?>" class="link-secondary"><?php echo $TermsURLName; ?></a></li>
-                  <li class="list-inline-item"><a href="<?php echo $PrivacyURL; ?>" class="link-secondary"><?php echo $PrivacyURLName; ?></a></li>
-                  <li class="list-inline-item"><a href="<?php echo $SiteInfoURL; ?>" class="link-secondary"><?php echo $SiteInfoURLName; ?></a></li>
-                  <li class="list-inline-item"><a href="<?php echo $HelpURL; ?>" class="link-secondary"><?php echo $HelpURLName; ?></a></li>
-                  <!-- 
-                  <li class="list-inline-item"><a href="./article/about" class="link-secondary">About</a></li>
-                  -->
-                  <!--
-                  <li class="list-inline-item">
-                    <a href="https://neuhub.org" target="_blank" class="link-secondary" rel="noopener">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="icon text-pink icon-filled icon-inline" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
-                      Sponsor
-                    </a>
-                  </li>
-                  -->
-                </ul>
-              </div>
-              <div class="col-12 col-lg-auto mt-3 mt-lg-0">
-                <ul class="list-inline list-inline-dots mb-0">
-                  <li class="list-inline-item"><?php echo $Copyright; ?>
-                    <!-- Copyright &copy; 1995-2023
-                    <a href="https://wistex.com" target="_blank" class="link-secondary">WisTex TechSero Ltd. Co.</a>
-                    All rights reserved. -->
-                  </li>
-                  <!--
-                  <li class="list-inline-item">
-                    <a href="./article/changelog" class="link-secondary" rel="noopener">
-                      v1.0
-                    </a>
-                  </li>
-                  -->
-                </ul>
-              </div>
-            </div>
-          </div>
+            <footer class="footer footer-transparent d-print-none">
+              <div class="container-xl">  
+                <div class="row text-center align-items-center flex-row-reverse">
+                  <div class="col-lg-auto ms-lg-auto">
+                    <ul class="list-inline list-inline-dots mb-0">
+                      <li class="list-inline-item"><a href="<?php echo $HomeURL; ?>" class="link-secondary"><?php echo $HomeURLName; ?></a></li>
+                      <li class="list-inline-item"><a href="<?php echo $DirectoryURL; ?>" class="link-secondary"><?php echo $DirectoryURLName; ?></a></li>
+                      
+                      <li class="list-inline-item"><a href="<?php echo $TermsURL; ?>" class="link-secondary"><?php echo $TermsURLName; ?></a></li>
+                      <li class="list-inline-item"><a href="<?php echo $PrivacyURL; ?>" class="link-secondary"><?php echo $PrivacyURLName; ?></a></li>
+                      <li class="list-inline-item"><a href="<?php echo $SiteInfoURL; ?>" class="link-secondary"><?php echo $SiteInfoURLName; ?></a></li>
+                      <li class="list-inline-item"><a href="<?php echo $HelpURL; ?>" class="link-secondary"><?php echo $HelpURLName; ?></a></li>
+                      <!-- 
+                      <li class="list-inline-item"><a href="./article/about" class="link-secondary">About</a></li>
+                      -->
+                      <!--
+                      <li class="list-inline-item">
+                        <a href="https://neuhub.org" target="_blank" class="link-secondary" rel="noopener">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="icon text-pink icon-filled icon-inline" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
+                          Sponsor
+                        </a>
+                      </li>
+                      -->
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-auto mt-3 mt-lg-0">
+                    <ul class="list-inline list-inline-dots mb-0">
+                      <li class="list-inline-item"><?php echo $Copyright; ?>
+                        <!-- Copyright &copy; 1995-2023
+                        <a href="https://wistex.com" target="_blank" class="link-secondary">WisTex TechSero Ltd. Co.</a>
+                        All rights reserved. -->
+                      </li>
+                      <!--
+                      <li class="list-inline-item">
+                        <a href="./article/changelog" class="link-secondary" rel="noopener">
+                          v1.0
+                        </a>
+                      </li>
+                      -->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- container -->
 
-          <style>
-            .mobile-nav {
-            background: #F1F1F1;
-            position: fixed;
-            bottom: 0;
-            height: 65px;
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            margin-top: 165px;
-          }
-          .bloc-icon {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-          .bloc-icon img {
-            width: 30px;
-          }
-          @media screen and (min-width: 600px) {
-            .mobile-nav {
-            display: none;
-            }
-          }
-          </style>
+              <style>
+                .mobile-nav {
+                background: #F1F1F1;
+                position: fixed;
+                bottom: 0;
+                height: 65px;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                margin-top: 165px;
+                }
+                .bloc-icon {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+                .bloc-icon img {
+                  width: 30px;
+                }
+                @media screen and (min-width: 600px) {
+                  .mobile-nav {
+                  display: none;
+                  }
+                }
+              </style>
           
                   <nav class="mobile-nav bg-dark-lt">
                     <a href="/" class="bloc-icon">
@@ -427,8 +427,8 @@ if (file_exists($filename)) {
 
 
      
-      </div>
-    </div>
+      </div> <!-- page wrapper -->
+    </div> <!-- page -->
     <!-- Libs JS -->
     <!-- Tabler Core -->
     <script src="/view/theme/neuhub-tab/dist/js/tabler.min.js?1685973381" defer></script>

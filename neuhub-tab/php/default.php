@@ -236,6 +236,11 @@ if (file_exists($filename)) {
         background-color: var(--bs-tertiary-bg);
       }
 
+      .list-group {
+        --tblr-list-group-item-padding-x: 0.8rem;
+        --tblr-list-group-item-padding-y: 0.5rem;
+      }
+
       /* For the Extra Theme Variables Addon */
       .field_id_custom_var_value {
         /* allow the text area to expand vertically in size with a horizontal scrollbar if pre-existing content is added to the box before rendering. Remove this if you want a pre-set height. Use "em" to match the font size set in the website. */

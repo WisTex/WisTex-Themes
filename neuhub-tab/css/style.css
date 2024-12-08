@@ -29,6 +29,12 @@
 }
 /* End styles used with custom page addon */
 
+/* doesn't seem to work here, so moved to default.php */
+.list-group {
+    --tblr-list-group-item-padding-x: 0.8rem;
+    --tblr-list-group-item-padding-y: 0.5rem;
+}
+
 @media (min-width: 1200px) {
     .container-xl, .container {
       /* max-width: 1140px; */

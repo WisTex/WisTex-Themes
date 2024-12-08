@@ -65,6 +65,14 @@ footer {
     font-size: 1rem;
 }
 
+.generic-content-wrapper-styled {
+    background-color: var(--bs-body-bg);
+    border: 0px solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
 .thread-wrapper {
     /* border: 0px solid var(--bs-border-color); */
     

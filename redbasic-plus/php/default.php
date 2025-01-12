@@ -633,7 +633,9 @@ body {
 
 -->
 
+<?php
 echo var_dump($page) . "<br>";
+?>
 
 </div>
 

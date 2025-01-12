@@ -41,7 +41,7 @@ body {
 */
 </style>
 
-	<?php if(x($page,'banner')) echo $page['banner']; ?>
+	<?php /* if(x($page,'banner')) echo $page['banner']; */ ?>
 	<header><?php if(x($page,'header')) echo $page['header']; ?></header>
 	<?php if(x($page,'nav')) echo $page['nav']; ?>
 
@@ -632,6 +632,8 @@ body {
 </nav>
 
 -->
+
+echo var_dump($page) . "<br>";
 
 </div>
 

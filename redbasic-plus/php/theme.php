@@ -5,7 +5,7 @@
  *   * Description: A derivative theme of Redbasic that has some additional navigation.
  *   * Version: 2.2.5
  *   * MinVersion: 8.0
- *   * MaxVersion: 10.0
+ *   * MaxVersion: 12.0
  *   * Author: Scott M. Stolz
  *   * Maintainer: Scott M. Stolz
  *   * License: MIT License (Expat Version) - https://license.neuhub.org

@@ -13,7 +13,7 @@
 <!DOCTYPE html >
 <html prefix="og: http://ogp.me/ns#" <?php if(x($page,'color_mode')) echo $page['color_mode'] ?>>
 <head>
-  <title><?php if(x($page,'title')) echo $page['title'] ?></title>
+  <title><?php if(x($page,'page_title')) echo $page['page_title'] ?> - <?php if(x($page,'title')) echo $page['title'] ?></title>
   <script>var baseurl="<?php echo z_root() ?>";</script>
   <?php if(x($page,'htmlhead')) echo $page['htmlhead'] ?>
 </head>
@@ -571,8 +571,8 @@ body {
 
 
         <?php
-echo var_dump($page) . "<br>";
-?>
+          // echo var_dump($page) . "<br>";
+        ?>
 
 
 

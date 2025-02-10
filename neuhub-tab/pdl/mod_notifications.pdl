@@ -1,0 +1,19 @@
+[region=aside]
+[widget=notifications][/widget]
+[widget=messages][/widget]
+[widget=forums][/widget]
+[/region]
+
+[region=content]
+[widget=vcard][/widget]
+[widget=channel_activities][/widget]
+[widget=notes]
+	[var=hidden]1[/var]
+	[var=app]1[/var]
+[/widget]
+$content
+[/region]
+
+[region=right_aside]
+[widget=newmember][/widget]
+[/region]

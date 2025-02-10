@@ -296,6 +296,7 @@
                 </a>        				
             {{/if}}
 
+            {{$userinfo.extra_theme_vars.user_dropdown_menu_mobile}}
             {{$userinfo["neuhub-tab"].user_dropdown_menu_mobile}}
               <!--
                 <a href="/channel" class="dropdown-item">View Channel</a>
@@ -706,7 +707,7 @@
               {{/if}}
 
               <li class="nav-item{{$ClassMenuHome}}">
-              <a class="nav-link" href="{{$userinfo["neuhub-tab"].home_domain}}/{{$userinfo["neuhub-tab"].home_path}}" >
+              <a class="nav-link" href="{{$userinfo["neuhub-tab"].home_domain}}{{$userinfo.extra_theme_vars.home_domain}}/{{$userinfo["neuhub-tab"].home_path}}{{$userinfo.extra_theme_vars.home_path}}" >
                 <span class="nav-link-icon d-md-none d-lg-inline-block">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l-2 0l9 -9l9 9l-2 0" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
                 </span>
@@ -1223,7 +1224,7 @@
 
             {{if $localuser}}
 
-
+              {{$userinfo.extra_theme_vars.sidebar_li_after_menu_localuser}}
               {{$userinfo["neuhub-tab"].sidebar_li_after_menu_localuser}}
               <!--
               <li><hr></li>
@@ -1372,7 +1373,7 @@
 
       <!-- Navbar -->
       <header class="navbar navbar-expand-md d-none d-lg-flex d-print-none" >
-        <div class="container-xl">
+        <div class="container-xl mw-100">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -1643,6 +1644,8 @@
                 </a>
             {{/if}}
 
+
+            {{$userinfo.extra_theme_vars.user_dropdown_menu_desktop}}  
             {{$userinfo["neuhub-tab"].user_dropdown_menu_desktop}}
 
 
@@ -1694,7 +1697,7 @@
                 {{* If Not Logged In *}}
 
                 <li class="nav-item">
-                  <a class="nav-link" href="{{$userinfo["neuhub-tab"].home_domain}}/{{$userinfo["neuhub-tab"].home_path}}" >
+                  <a class="nav-link" href="{{$userinfo["neuhub-tab"].home_domain}}{{$userinfo.extra_theme_vars.home_domain}}/{{$userinfo["neuhub-tab"].home_path}}{{$userinfo.extra_theme_vars.home_path}}" >
                     <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/home -->
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l-2 0l9 -9l9 9l-2 0" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
                     </span>
@@ -1704,6 +1707,7 @@
                   </a>
                 </li>
 
+                {{$userinfo.extra_theme_vars.topmenu_li_after_home_loggedout}}
                 {{$userinfo["neuhub-tab"].topmenu_li_after_home_loggedout}}
 
                 <!-- The login link is better hidden on private hubs. You can still get to it in the dropdown or other ways. -->
@@ -1765,7 +1769,7 @@
 
                 
                 <li class="nav-item">
-                  <a class="nav-link" href="{{$userinfo["neuhub-tab"].home_domain}}/{{$userinfo["neuhub-tab"].home_path}}" >
+                  <a class="nav-link" href="{{$userinfo["neuhub-tab"].home_domain}}{{$userinfo.extra_theme_vars.home_domain}}/{{$userinfo["neuhub-tab"].home_path}}{{$userinfo.extra_theme_vars.home_path}}" >
                     <span class="nav-link-icon d-md-none d-lg-inline-block">
                     <!--
                       <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l-2 0l9 -9l9 9l-2 0" /><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" /><path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" /></svg>
@@ -1778,6 +1782,7 @@
                   </a>
                 </li>
                 
+                {{$userinfo.extra_theme_vars.topmenu_li_after_home_loggedin}}
                 {{$userinfo["neuhub-tab"].topmenu_li_after_home_loggedin}}
               
                 {{if $userinfo.addr}}

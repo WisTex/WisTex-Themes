@@ -71,16 +71,17 @@
 
             <h3>Neuhub</h3>
 
-            <div>This website uses themes, addons, and widgets from Neuhub.</div>
-            <div>Version 2.5</div>
+            <div>This website uses themes, addons, and widgets from Federated Works.</div>
+            <div>Neuhub Tab Version 0.4</div>
             <div>Project homepage: <a href="https://neuhub.org" target="_blank">https://neuhub.org</a>
-            <div>Repository: <a href="https://github.com/WisTex/Neuhub" target="_blank">https://github.com/WisTex/Neuhub</a></div>
+            <div>Repository: <a href="https://framagit.org/federated-works/neuhub" target="_blank">https://framagit.org/federated-works/neuhub</a></div>
             <hr>
             <h3>Technologies &amp; Protocols</h3>
 
             <ul>
                 <li><div>{{$prj_transport}}: ({{$transport_link}}).</div></li>
                 <li><div>Remote authentication provided by: OpenWebAuth (<a href="https://magicsignon.org" target="_blank">https://magicsignon.org</a>).</div></li>
+                <li><div>Federation provided by: Nomad Protocol / Zot6 (<a href="https://opennomad.net" target="_blank">https://opennomad.net</a>)</div></li>
 
                 {{if $additional_fed}}
                     <li><div>{{$additional_text}} {{$additional_fed}}</div></li>

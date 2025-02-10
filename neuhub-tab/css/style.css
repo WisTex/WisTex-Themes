@@ -29,6 +29,11 @@
 }
 /* End styles used with custom page addon */
 
+/* Tabler's CSS setting messes up the directory images */
+img {
+    max-width: inherit;
+}
+
 /* doesn't seem to work here, so moved to default.php */
 .list-group {
     --tblr-list-group-item-padding-x: 0.8rem;
@@ -38,13 +43,14 @@
 @media (min-width: 1200px) {
     .container-xl, .container {
       /* max-width: 1140px; */
-      max-width: 1380px;
+      max-width: 1600px; !important
     }
   }
 @media (min-width: 1400px) {
      .container-xl, .container {
       /* max-width: 1320px; */
-      max-width: 1440px;
+      /* max-width: 1440px; */
+      max-width: 1600px; !important
     }
   }
 
@@ -71,6 +77,13 @@ footer {
     border-radius: var(--bs-border-radius);
     margin-bottom: 1.5rem;
     font-size: 1rem;
+}
+
+.comment {
+    /* border-top: lightgrey; */
+    border-top: var(--bs-border-color);
+    border-top-width: thin;
+    border-top-style: solid;
 }
 
 .thread-wrapper {

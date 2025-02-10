@@ -24,6 +24,13 @@
 $SiteIcon = "icon-hz-64";
 $SidebarTitle = "Hubzilla";
 
+// * Footer
+// Pick which footer you want to use.
+// Normally it shows the smaller footer, which is appropriate for most sites.
+// Sites that have people login in might benefit from the larger server which has more user links. 
+// $ShowLargeFooter = 1;
+$ShowLargeFooter = 0;
+
 // * Navigation Links
 
 // Override the destination of the Home link. Affects breadcrumbs, footer, and sidebar links to Home.
@@ -32,6 +39,13 @@ $SidebarTitle = "Hubzilla";
 $ShowHomeLink = true;
 $HomeURLName = "Home"; 
 $HomeURL = "/";
+
+// URL to your Members Area
+// You can create a unqiue page if you want.
+// Shown in the footer in most themes.
+$ShowMembersAreaLink = false;
+$MembersAreaURLName = "Members Area";
+$MembersAreaURL = "/page/community/members";
 
 // URL to your Terms of Service
 // Shown in the footer in most themes.
@@ -130,6 +144,7 @@ $SiteNameinBreadcrumbsText = "Home";
 // Used in the Red Dash theme.
 $SiteNameinFooter = true;
 $SiteNameinFooterText = "Neuhub";
+$SiteDescinFooterText = "";
 
 // Show powered by Hubzilla and Neuhub in footer.
 $PoweredBy = true;

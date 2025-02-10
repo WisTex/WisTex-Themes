@@ -5,7 +5,7 @@
 
 head_add_css('/vendor/twbs/bootstrap-icons/font/bootstrap-icons.min.css');
 
-head_add_css('/library/fork-awesome/css/fork-awesome.min.css');
+// head_add_css('/library/fork-awesome/css/fork-awesome.min.css'); 
 // head_add_css('/vendor/twbs/bootstrap/dist/css/bootstrap.min.css'); // Tabler already uses Bootstrap, so this would conflict with it.
 head_add_css('/library/bootstrap-tagsinput/bootstrap-tagsinput.css');
 head_add_css('/view/css/bootstrap-red.css');
@@ -33,7 +33,8 @@ head_add_js('/library/bootstrap-tagsinput/bootstrap-tagsinput.js');
 head_add_js('/library/datetimepicker/jquery.datetimepicker.js');
 head_add_js('/library/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.js');
 head_add_js('/view/theme/redbasic/js/redbasic.js');
-head_add_js('/view/theme/neuhub-tab/js/neuhub-tab.js');
+// This appears to be called from somewhere else, so removing duplicate. 
+//head_add_js('/view/theme/neuhub-tab/js/neuhub-tab.js');
 
 // These are the Tabler UI Kit's JS files used in this theme.
 // ? For some reason it gives an error if I call it here, so I put it in default.php instead.

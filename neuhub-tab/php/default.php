@@ -270,6 +270,16 @@ if (file_exists($filename)) {
             transform: translateX(-50%);
         }      
 
+        code {
+          display: inline;
+          color: var(--bs-code-color);
+        }
+
+
+        #preview-pane (
+          margin-top:20px;
+        )
+
     </style>
   </head>
   <body>

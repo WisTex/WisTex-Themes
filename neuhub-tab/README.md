@@ -5,7 +5,7 @@
 * Extends: [Hubzilla](https://hubzilla.org)
 * Project Lead: Scott M. Stolz
 
-### **Version 0.4.1**
+### **Version 0.4.x**
 
 - Website: https://neuhub.org
 - Repository: https://framagit.org/federated-works/neuhub/hubzilla-themes/-/tree/main/neuhub-tab

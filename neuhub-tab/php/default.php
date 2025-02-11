@@ -114,12 +114,12 @@ if (file_exists($filename)) {
 <!-- -->
 
     <?php
-    // Include Codestitch CSS files, if it exists.
+    // Include custom Codestitch CSS files, if it exists.
     // ! Assumes you have uploaded both the main CSS and the CSS for the sections.
-    $filename = '/custom/css/codestitch.css';
+    $filename = './custom/css/codestitch.css';
     if (file_exists($filename)) { ?>
-        <!--<link href="/custom/css/codestitch.css?1685973381" rel="stylesheet"/>
-        <link href="/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>-->
+        <!-- <link href="/custom/css/codestitch.css?1685973381" rel="stylesheet"/> -->
+        <link href="/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
     <?php
     } else {
         //// echo "The file $filename does not exist";
@@ -134,8 +134,9 @@ if (file_exists($filename)) {
         <link href="/view/theme/neuhub-tab/custom/css/codestitch.css?1685973381" rel="stylesheet"/>
         <link href="/view/theme/neuhub-tab/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
   -->
-        <!--<link href="/view/theme/neuhub-tab/css/codestitch.css?1685973381" rel="stylesheet"/>
-        <link href="/view/theme/neuhub-tab/css/codestitch-sections.css?1685973381" rel="stylesheet"/>-->
+        <!-- Loads the Neuhub Tab CodeStitch Files if they exist -->
+        <link href="/view/theme/neuhub-tab/css/codestitch.css?1685973381" rel="stylesheet"/>
+        <link href="/view/theme/neuhub-tab/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
 
     <style>
       /* @import url('/view/theme/neuhub-tab/assets/fonts/inter/inter.css'); */

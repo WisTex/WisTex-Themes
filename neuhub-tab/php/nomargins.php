@@ -108,7 +108,7 @@ if (file_exists($filename)) {
     // ! Assumes you have uploaded both the main CSS and the CSS for the sections.
     $filename = './custom/css/codestitch.css';
     if (file_exists($filename)) { ?>
-        <!-- <link href="/custom/css/codestitch.css?1685973381" rel="stylesheet"/> -->
+        <link href="/custom/css/codestitch.css?1685973381" rel="stylesheet"/>
         <link href="/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
     <?php
     } else {
@@ -124,8 +124,10 @@ if (file_exists($filename)) {
         <link href="/view/theme/neuhub-tab/custom/css/codestitch.css?1685973381" rel="stylesheet"/>
         <link href="/view/theme/neuhub-tab/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
   -->
+        <!--
         <link href="/view/theme/neuhub-tab/css/codestitch.css?1685973381" rel="stylesheet"/>
         <link href="/view/theme/neuhub-tab/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
+  -->
 
     <style>
       /* @import url('/view/theme/neuhub-tab/assets/fonts/inter/inter.css'); */

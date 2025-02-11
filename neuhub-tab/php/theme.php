@@ -3,7 +3,7 @@
 /**
  *   * Name: Neuhub Tab
  *   * Description: A theme by Neuhub.org using the Tabler UI Kit.
- *   * Version: 0.4.4
+ *   * Version: 0.4.5
  *   * MinVersion: 8.0
  *   * MaxVersion: 11.0
  *   * Author: Scott M. Stolz

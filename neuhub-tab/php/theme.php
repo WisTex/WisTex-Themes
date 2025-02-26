@@ -3,13 +3,13 @@
 /**
  *   * Name: Neuhub Tab
  *   * Description: A theme by Neuhub.org using the Tabler UI Kit.
- *   * Version: 0.4.5
+ *   * Version: 0.5
  *   * MinVersion: 8.0
- *   * MaxVersion: 11.0
+ *   * MaxVersion: 13.0
  *   * Author: Scott M. Stolz
  *   * Maintainer: Scott M. Stolz
  *   * License: MIT License (Expat Version) - https://license.neuhub.org
- *   * Copyright: 2023-2025 © WisTex TechSero Ltd. Co., Nuehub, Tabler, and others.
+ *   * Copyright: 2023-2025 © WisTex TechSero Ltd. Co., Federated Works, Tabler, and others.
  *   * Website: https://neuhub.org
  *   * Respository: https://github.com/WisTex/Neuhub
  *   * Compat: Hubzilla [*]

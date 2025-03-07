@@ -175,8 +175,147 @@ if (file_exists($filename)) {
       	font-feature-settings: "cv03", "cv04", "cv11";
       }
       .wall-item-content-wrapper {
-        background: var(--tblr-card-color);
+        /* background: var(--tblr-card-color); */
+        background-color: var(--bs-tertiary-bg);
       }
+      .wall-item-content-wrapper.comment {
+        /* background: var(--tblr-card-color); */
+        /* background-color: var(--bs-tertiary-bg); */
+      }      
+
+
+        pre {
+            /* padding: 1rem; */
+            padding: 0.5rem;
+            /* background: var(--tblr-bg-surface-dark); */
+            background: #313c52;
+            color: var(--tblr-light);
+            border-radius: var(--tblr-border-radius);
+        }
+        
+        pre code {
+            display: block;
+        }
+
+
+        .hr-text {
+          font-size: 1rem;
+        }
+
+      .hide-comments-outer {
+        background-color: #F3F0F7;
+        border-top-color: #e0e0e0;
+        border-style: solid;
+        border-top-style: dashed;
+        border-width: 1px 0px 0px 0px;
+        text-align: center;
+        border-radius: 0px;
+      }
+
+      .rounded-circle {
+        /* background-color: white; */
+        /* background-color: var(--bs-tertiary-bg); */
+      }
+
+      /* fixes directory images */
+      img {
+        max-width: inherit;
+      }
+
+      .section-content-wrapper h1, .section-content-wrapper h2, .section-content-wrapper h3, .section-content-wrapper h4 {
+        padding-top: 0px;
+        margin-top: 0px;
+      }
+
+      .section-content-wrapper h1 {
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+      }      
+
+      .section-content-wrapper h2 {
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+      }      
+      
+      .section-content-wrapper h3 {
+        font-size: 1.50rem;
+        line-height: 1.50rem;
+      }      
+      
+      .section-content-wrapper h4 {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+      }      
+      
+      .section-content-wrapper h5 {
+        font-size: 1.10rem;
+        line-height: 1.10rem;
+      }            
+      
+      
+      .generic-content-wrapper h1 {
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+        margin-top: 5px;
+        padding-top: 5px;
+      }      
+
+      .generic-content-wrapper h2 {
+        font-size: 1.75rem;
+        line-height: 1.75rem;
+        border-bottom: 1px;
+        margin-top: 5px;
+        padding-top: 5px;
+      }      
+      
+      .generic-content-wrapper h3 {
+        font-size: 1.50rem;
+        line-height: 1.50rem;
+        margin-top: 5px;
+        padding-top: 5px;        
+      }      
+      
+      .generic-content-wrapper h4 {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+        margin-top: 5px;
+        padding-top: 5px;        
+      }      
+      
+      .generic-content-wrapper h5 {
+        font-size: 1.10rem;
+        line-height: 1.10rem;
+        margin-top: 5px;
+        padding-top: 5px;        
+      }                  
+
+      .section-title-wrapper h1 {
+        margin-top: 0px;
+        padding-top: 0px;               
+      }      
+
+      .section-title-wrapper h2 {
+        margin-top: 0px;
+        padding-top: 0px;               
+      }      
+      
+      .section-title-wrapper h3 {
+        margin-top: 0px;
+        padding-top: 0px;               
+      }            
+
+      .list-group-item {
+        /* background-color: var(--bs-list-group-bg); */
+        background-color: var(--bs-tertiary-bg);
+      }
+
+      .nav-tabs .nav-link.active {
+        color: var(--tblr-nav-tabs-link-active-color);
+        background-color: var(--bs-tertiary-bg);
+        /* background-color: var(--tblr-nav-tabs-link-active-bg); */
+        border-color: var(--tblr-nav-tabs-link-active-border-color);
+      }
+
       .section-subtitle-wrapper {
         background: rgba(72, 110, 149, 0.14); /* had to pick a color that shows up on light and dark modes */
       }
@@ -209,9 +348,13 @@ if (file_exists($filename)) {
         --tblr-avatar-size: 80px;
       }
 
-      dl, ol, ul {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+      dl.generic_content_wrapper, ol.generic_content_wrapper, ul.generic_content_wrapper {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+      }
+
+      li.generic_content_wrapper, dt.generic_content_wrapper {
+        padding-bottom: 0.25rem;
       }
 
       .thread-wrapper {

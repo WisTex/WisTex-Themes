@@ -2,16 +2,16 @@
 
 /**
  *   * Name: Neuhub Tab
- *   * Description: A theme by Neuhub.org using the Tabler UI Kit.
- *   * Version: 0.5
+ *   * Description: A theme by Federated Works using the Tabler UI Kit.
+ *   * Version: 0.7.1
  *   * MinVersion: 8.0
  *   * MaxVersion: 13.0
  *   * Author: Scott M. Stolz
  *   * Maintainer: Scott M. Stolz
- *   * License: MIT License (Expat Version) - https://license.neuhub.org
+ *   * License: MIT License (Expat Version)
  *   * Copyright: 2023-2025 © WisTex TechSero Ltd. Co., Federated Works, Tabler, and others.
  *   * Website: https://neuhub.org
- *   * Respository: https://github.com/WisTex/Neuhub
+ *   * Respository: https://framagit.org/federated-works/neuhub/hubzilla-themes/-/tree/main/neuhub-tab
  *   * Compat: Hubzilla [*]
  *
  */
